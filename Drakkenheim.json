@@ -1,4 +1,5 @@
 {
+	"siteVersion": "1.149.1",
 	"_meta": {
 		"sources": [
 			{
@@ -212,7 +213,7 @@
 			"page": 223,
 			"ruleType": "O",
 			"entries": [
-				"Each time a character gains a contamination level, it rolls {@dice 1d6}. If the result is equal to or less than the character’s current contamination level the creature gains a mutation. The Game Master may choose the mutation, or determine it randomly by rolling 1d20 on the Mutations Table. If the result is the same as a mutation affecting the creature currently, the GM chooses a different one or rolls again.",
+				"Each time a character gains a {@condition contamination|DoDr} level, it rolls {@dice 1d6}. If the result is equal to or less than the character’s current {@condition contamination|DoDr} level the creature gains a mutation. The Game Master may choose the mutation, or determine it randomly by rolling {@dice 1d20} on the Mutations Table. If the result is the same as a mutation affecting the creature currently, the GM chooses a different one or rolls again.",
 				{
 					"type": "table",
 					"name": "Mutations",
@@ -233,31 +234,31 @@
 						],
 						[
 							"2",
-							"{@b Rasping}. Your vocal cords warp, and you may only speak in a halting gurgle. If you have 4 or more contamination levels, your tongue rots and falls out, and you can no longer speak."
+							"{@b Rasping}. Your vocal cords warp, and you may only speak in a halting gurgle. If you have 4 or more {@condition contamination|DoDr} levels, your tongue rots and falls out, and you can no longer speak."
 						],
 						[
 							"3",
-							"{@b Wasting}. Your fingernails, teeth, and toenails start falling out. 2d6 fall out for each contamination level you have gained."
+							"{@b Wasting}. Your fingernails, teeth, and toenails start falling out. {@dice 2d6} fall out for each {@condition contamination|DoDr} level you have gained."
 						],
 						[
 							"4",
-							"{@b Rotting}. Your lips, nose, and ears blacken and wither. If you reach 4 or more contamination levels, they rot and fall off. You can still speak and hear, however."
+							"{@b Rotting}. Your lips, nose, and ears blacken and wither. If you reach 4 or more {@condition contamination|DoDr} levels, they rot and fall off. You can still speak and hear, however."
 						],
 						[
 							"5",
-							"{@b Molting}. Painful blisters, welts, and multicoloured lesions appear all over your skin, which burst and peel off painfully, exposing the raw sinew underneath. Once you reach 4 contamination levels, your skin entirely sloughs off."
+							"{@b Molting}. Painful blisters, welts, and multicoloured lesions appear all over your skin, which burst and peel off painfully, exposing the raw sinew underneath. Once you reach 4 {@condition contamination|DoDr} levels, your skin entirely sloughs off."
 						],
 						[
 							"6",
-							"{@b Shedding}. Each time you gain a contamination level, some of your hair falls out in patches. Once you reach 4 or more contamination levels, all hair on your body completely falls out"
+							"{@b Shedding}. Each time you gain a {@condition contamination|DoDr} level, some of your hair falls out in patches. Once you reach 4 or more {@condition contamination|DoDr} levels, all hair on your body completely falls out"
 						],
 						[
 							"7",
-							"{@b Lambent Glow}. You emit a dim octarine glow to a range of 10 feet. If you have 4 or more contamination levels, you instead emit bright light to a range of 30 feet."
+							"{@b Lambent Glow}. You emit a dim octarine glow to a range of 10 feet. If you have 4 or more {@condition contamination|DoDr} levels, you instead emit bright light to a range of 30 feet."
 						],
 						[
 							"8",
-							"{@b Ocular Tumors}. An eyeball opens somewhere on your body for each contamination level you have gained. If you have 4 or more contamination levels, you can see in all directions."
+							"{@b Ocular Tumors}. An eyeball opens somewhere on your body for each {@condition contamination|DoDr} level you have gained. If you have 4 or more {@condition contamination|DoDr} levels, you can see in all directions."
 						],
 						[
 							"9",
@@ -265,7 +266,7 @@
 						],
 						[
 							"10",
-							"{@b Aquatic Adaptation}. You sprout fish-like fins and gills. You gain a swimming speed equal to your land speed and can breathe underwater. If you have 4 or more contamination levels, you can only breathe underwater; but can hold your breath outside water for up to 1 hour."
+							"{@b Aquatic Adaptation}. You sprout fish-like fins and gills. You gain a swimming speed equal to your land speed and can breathe underwater. If you have 4 or more {@condition contamination|DoDr} levels, you can only breathe underwater; but can hold your breath outside water for up to 1 hour."
 						],
 						[
 							"11",
@@ -273,15 +274,15 @@
 						],
 						[
 							"12",
-							"{@b Chitinous Skin}. Shell-like growths appear all over your body, giving you a +1 bonus to AC. If you have four or more contamination levels, this bonus increases to +2."
+							"{@b Chitinous Skin}. Shell-like growths appear all over your body, giving you a +1 bonus to AC. If you have four or more {@condition contamination|DoDr} levels, this bonus increases to +2."
 						],
 						[
 							"13",
-							"{@b Cyclopean Vision}. Your eyes merge into a single central eye which can emit an energy beam as a ranged spell attack using your Intelligence modifier for the attack roll. If it hits, it deals 2d6 radiant damage."
+							"{@b Cyclopean Vision}. Your eyes merge into a single central eye which can emit an energy beam as a ranged spell attack using your Intelligence modifier for the attack roll. If it hits, it deals {@damage 2d6} radiant damage."
 						],
 						[
 							"14",
-							"{@b Spatial Displacement}. You can cast misty step once for each contamination level you have gained. You regain these uses when you finish a long rest."
+							"{@b Spatial Displacement}. You can cast misty step once for each {@condition contamination|DoDr} level you have gained. You regain these uses when you finish a long rest."
 						],
 						[
 							"15",
@@ -293,7 +294,7 @@
 						],
 						[
 							"17",
-							"{@b Whispering Voices}. You gain telepathy to a range of 10 feet, but other people hear it as their own voice. If you have 4 or more contamination levels, the range extends to 60 feet."
+							"{@b Whispering Voices}. You gain telepathy to a range of 10 feet, but other people hear it as their own voice. If you have 4 or more {@condition contamination|DoDr} levels, the range extends to 60 feet."
 						],
 						[
 							"18",
@@ -301,11 +302,11 @@
 						],
 						[
 							"19",
-							"{@b Eyeless Sight}. Your eyes become milky orbs, and you gain blindsight to a range of 10 feet. If you have 4 or more contamination levels, your eyes rot out, and dim octarine light burns in the sockets. Your blindsight increases to 30 feet, but you are blind beyond this radius"
+							"{@b Eyeless Sight}. Your eyes become milky orbs, and you gain blindsight to a range of 10 feet. If you have 4 or more {@condition contamination|DoDr} levels, your eyes rot out, and dim octarine light burns in the sockets. Your blindsight increases to 30 feet, but you are blind beyond this radius"
 						],
 						[
 							"20",
-							"{@b Arcane Blood}. Gain an additional spell slot of the highest level you can cast (to a maximum of 5th level). If you don’t have spell slots, your hit point maximum increases by an amount equal to your level. Double with 4 or more contamination levels."
+							"{@b Arcane Blood}. Gain an additional spell slot of the highest level you can cast (to a maximum of 5th level). If you don’t have spell slots, your hit point maximum increases by an amount equal to your level. Double with 4 or more {@condition contamination|DoDr} levels."
 						]
 					]
 				},
@@ -490,7 +491,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -525,7 +526,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -660,7 +661,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -700,7 +701,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -798,7 +799,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -840,7 +841,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -931,9 +932,15 @@
 					]
 				},
 				{
+					"name": "Contaminating Beam",
+					"entries": [
+						"The grotesque gargant magically forces a creature it can see within 60 feet of it to make a {@dc 15} Constitution saving throw. The creature takes 27 ({@damage 6d8}) necrotic damage on a failed save and gains one level of {@condition contamination|DoDr}."
+					]
+				},
+				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -996,7 +1003,7 @@
 			"tokenUrl": "https://5e.tools/img/MM/Stone Giant.png",
 			"fluff": {
 				"entries": [
-					"These mutated human monstrosities have grown to tremendous size. Delerium shards are merged into their disfigured bodies, and their muscles pulse with arcane energies as they lumber forward. Furiously territorial, these creatures are occasionally sighted hauling massive delerium crystals from the crater and placing them like obelisks in the ruins.",
+					"These mutated human monstrosities have grown to tremendous size. {@item Delerium|DoDr} shards are merged into their disfigured bodies, and their muscles pulse with arcane energies as they lumber forward. Furiously territorial, these creatures are occasionally sighted hauling massive {@item delerium|DoDr} crystals from the crater and placing them like obelisks in the ruins.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -1005,7 +1012,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -1024,12 +1031,6 @@
 					"name": "Regeneration",
 					"entries": [
 						"A grotesque gargant regains 10 hit points at the start of its turn as long as it is within the Deep Haze. The gargant dies only if it starts its turn with 0 hit points and doesn’t regenerate."
-					]
-				},
-				{
-					"name": "Contaminating Beam",
-					"entries": [
-						"The grotesque gargant magically forces a creature it can see within 60 feet of it to make a {@dc 15} Constitution saving throw. The creature takes 27 ({@damage 6d8}) necrotic damage on a failed save and gains one level of {@condition contamination|DoDr}."
 					]
 				},
 				{
@@ -1112,7 +1113,7 @@
 				{
 					"name": "Death Burst",
 					"entries": [
-						"If damage reduces the haze husk to 0 hit points, the delerium fragments in its body explode in a burst of contaminated energy, unless the damage is radiant or from a critical hit. Each creature within 5 feet of it must succeed on a {@dc 10} Constitution saving throw or take 7 ({@damage 2d6}) necrotic damage. Creatures who fail this saving throw by 5 or more gain one level of {@condition contamination|DoDr}."
+						"If damage reduces the haze husk to 0 hit points, the {@item delerium|DoDr} fragments in its body explode in a burst of contaminated energy, unless the damage is radiant or from a critical hit. Each creature within 5 feet of it must succeed on a {@dc 10} Constitution saving throw or take 7 ({@damage 2d6}) necrotic damage. Creatures who fail this saving throw by 5 or more gain one level of {@condition contamination|DoDr}."
 					]
 				},
 				{
@@ -1144,7 +1145,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -1175,7 +1176,7 @@
 			"tokenUrl": "https://5e.tools/img/MM/Zombie.png",
 			"fluff": {
 				"entries": [
-					"Those who die in the ruins find no respite. The Haze reanimates their remains to wander the streets as shells forever stuck in the terror of their final moments. Billowing eldritch energies emanate from their eyes, mouth, and wounds and delerium fragments are fused into their flesh.",
+					"Those who die in the ruins find no respite. The Haze reanimates their remains to wander the streets as shells forever stuck in the terror of their final moments. Billowing eldritch energies emanate from their eyes, mouth, and wounds and {@item delerium|DoDr} fragments are fused into their flesh.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -1184,7 +1185,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -1325,7 +1326,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -1366,7 +1367,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -1553,7 +1554,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -1594,7 +1595,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -1775,7 +1776,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -1816,7 +1817,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -1965,7 +1966,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -2011,7 +2012,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				],
@@ -2084,7 +2085,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -2220,7 +2221,7 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"Many who succumb to contamination become grotesque mockeries of their former selves. They suffer a wretched and loathsome fate, aimlessly wandering the ruins following half-forgotten memories. Most are gripped by despair, fear, and madness which drive them to act violently, though a rare few experience lucidity and a gruesome awareness of their miserable state. Their distorted and emaciated bodies are sustained by the magic of the Haze.",
+					"Many who succumb to {@condition contamination|DoDr} become grotesque mockeries of their former selves. They suffer a wretched and loathsome fate, aimlessly wandering the ruins following half-forgotten memories. Most are gripped by despair, fear, and madness which drive them to act violently, though a rare few experience lucidity and a gruesome awareness of their miserable state. Their distorted and emaciated bodies are sustained by the magic of the Haze.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -2229,7 +2230,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -2318,7 +2319,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -2376,7 +2377,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -2493,7 +2494,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -2522,7 +2523,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -2628,7 +2629,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -2652,7 +2653,7 @@
 			"fluff": {
 				"entries": [
 					"ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later. ",
-					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and delerium are available.",
+					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -2661,7 +2662,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -2777,7 +2778,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -2818,7 +2819,7 @@
 			"fluff": {
 				"entries": [
 					"Ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. Ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later.",
-					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and delerium are available.",
+					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -2827,7 +2828,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -2955,7 +2956,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -2976,7 +2977,7 @@
 			"fluff": {
 				"entries": [
 					"ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later. ",
-					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and delerium are available.",
+					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
 					"Many ratlings worship a fiendish entity they call the Rat God. They construct crude effigies to the Rat God, who whispers to the most cunning and intelligent ratlings, granting them magic through eldritch pacts. ratlings understand surprisingly little about the Rat God, and make up stories and fables about the Rat God’s exploits.",
 					{
 						"type": "entries",
@@ -2986,7 +2987,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -3090,19 +3091,19 @@
 				{
 					"name": "Contaminated Touch",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6}) necrotic damage. In addition, a target hit by this attack must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition contamination |DoDr}"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6}) necrotic damage. In addition, a target hit by this attack must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition contamination|DoDr}"
 					]
 				},
 				{
 					"name": "Engulf",
 					"entries": [
-						"Each creatures in the animated sludge's space must succeed on a {@dc 15} strength saving throw. On a failed save, a creature becomes {@condition grappled} by the sludge if it is Large or smaller (escape {@dc 14}). Until this grapple ends, the target is {@condition restrained}. If the saving throw is successful, the target is pushed out of the sludge's space. The sludge can grapple one large creature or up to two Medium or smaller creatures at one time. At the start of each of the sludge's turn, each target {@condition grappled} by it takes 28 ({@damage 8d6}) necrotic damage and must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition contamination |DoDr}. A creature within 5 feet of the sludge can attempt to pull a creature or object out of it. This takes an action and requires a successful {@dc 14} Strength check."
+						"Each creatures in the animated sludge's space must succeed on a {@dc 15} strength saving throw. On a failed save, a creature becomes {@condition grappled} by the sludge if it is Large or smaller (escape {@dc 14}). Until this grapple ends, the target is {@condition restrained}. If the saving throw is successful, the target is pushed out of the sludge's space. The sludge can grapple one large creature or up to two Medium or smaller creatures at one time. At the start of each of the sludge's turn, each target {@condition grappled} by it takes 28 ({@damage 8d6}) necrotic damage and must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition contamination|DoDr}. A creature within 5 feet of the sludge can attempt to pull a creature or object out of it. This takes an action and requires a successful {@dc 14} Strength check."
 					]
 				},
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -3119,7 +3120,7 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"contamination |DoDr",
+				"contamination|DoDr",
 				"grappled",
 				"restrained"
 			],
@@ -3134,7 +3135,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -3226,7 +3227,7 @@
 				{
 					"name": "Deep Haze",
 					"entries": [
-						"A creature who enters or starts its turn in the same space as the Living Deep Haze must succeed on a {@dc 15} Constitution saving throw or take 10 ({@damage 3d6}) necrotic damage and gain one level of contamination."
+						"A creature who enters or starts its turn in the same space as the Living Deep Haze must succeed on a {@dc 15} Constitution saving throw or take 10 ({@damage 3d6}) necrotic damage and gain one level of {@condition contamination|DoDr}."
 					]
 				},
 				{
@@ -3264,7 +3265,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -3285,7 +3286,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -3415,7 +3416,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -3441,7 +3442,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -3536,7 +3537,7 @@
 				{
 					"name": "Death Burst",
 					"entries": [
-						"If damage reduces the walking delerium geode to 0 hit points, the delerium crystals in its body explode in a burst of contaminated energy, unless the damage was force, radiant, or thunder. Each creature within 30 feet of it must succeed on a {@dc 15} Constitution saving throw or take 42 ({@damage 12d6}) necrotic damage and gain one level of {@condition contamination|DoDr}. In addition, this explosion triggers a random {@table arcane anomalies|DoDr|arcane anomaly}."
+						"If damage reduces the walking delerium geode to 0 hit points, the {@item delerium|DoDr} crystals in its body explode in a burst of contaminated energy, unless the damage was force, radiant, or thunder. Each creature within 30 feet of it must succeed on a {@dc 15} Constitution saving throw or take 42 ({@damage 12d6}) necrotic damage and gain one level of {@condition contamination|DoDr}. In addition, this explosion triggers a random {@table arcane anomalies|DoDr|arcane anomaly}."
 					]
 				},
 				{
@@ -3574,7 +3575,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -3589,7 +3590,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -3683,7 +3684,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -3711,7 +3712,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -3952,7 +3953,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Before the throne is a gibbering Amalgamation of fleshy tumors, rotting bones, and rancid layers of bloated fat suspended between the ceiling and floor by stalky strands of gnarled tissue. The mass is covered in bursting sores, shuddering mucus nodules, and weeps bile and delerium sludge, The creature mutters in alien tongues from six yawning mouths, piping and sputtering in discordant musical tones, and lazily shifting eyes of massive size open and close throughout its bulk. Thick trunk-like tentacles reach out from its hideous stinking form to squirm and writhe around the chamber. Several appendages are wrapped around pulsing human organs: lungs, liver, kidney, a heart, a brain, and dangling amongst them is the jewelled Crown of Westemär. A palpable aura of contamination emanates from the beast.",
+					"Before the throne is a gibbering Amalgamation of fleshy tumors, rotting bones, and rancid layers of bloated fat suspended between the ceiling and floor by stalky strands of gnarled tissue. The mass is covered in bursting sores, shuddering mucus nodules, and weeps bile and {@item delerium|DoDr} sludge, The creature mutters in alien tongues from six yawning mouths, piping and sputtering in discordant musical tones, and lazily shifting eyes of massive size open and close throughout its bulk. Thick trunk-like tentacles reach out from its hideous stinking form to squirm and writhe around the chamber. Several appendages are wrapped around pulsing human organs: lungs, liver, kidney, a heart, a brain, and dangling amongst them is the jewelled Crown of Westemär. A palpable aura of {@condition contamination|DoDr} emanates from the beast.",
 					"\"Formed only in places where dimensional rifts are torn open, this blasphemous abomination is a conduit by which beings from realms of chaos untold can enter our world. It is an interdimensional cancer which infects our earth\" - Eldrick Runeweaver",
 					{
 						"type": "entries",
@@ -3962,7 +3963,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -4096,7 +4097,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -4138,7 +4139,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -4288,7 +4289,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -4334,7 +4335,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -4492,7 +4493,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -4550,7 +4551,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -4709,7 +4710,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -4751,7 +4752,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"This horrific albino garmyr stands well over twelve feet tall. He is covered in a mass of yellowish-white mangy fur, bloodstained and scarred from countless battles, and clad in a patchwork armour of leather, chain, and bladed plate with trophies — mummified heads — hanging from his belt. A mane of bony spines and tufts of barbed grey hair jut out from his head and down his back to a long white tail braided with skulls and bone fragments. His snarling visage is filled with long, razor-sharp fangs and smouldering red eyes. The Lord of The Feast holds an oversized longbow, strung with thick sinew. A quiver on his back holds enormous arrows, some bristling with barbed snares, others connected to coils of chains around the beast’s wrists, while others are tipped with delerium shards.",
+					"This horrific albino garmyr stands well over twelve feet tall. He is covered in a mass of yellowish-white mangy fur, bloodstained and scarred from countless battles, and clad in a patchwork armour of leather, chain, and bladed plate with trophies — mummified heads — hanging from his belt. A mane of bony spines and tufts of barbed grey hair jut out from his head and down his back to a long white tail braided with skulls and bone fragments. His snarling visage is filled with long, razor-sharp fangs and smouldering red eyes. The Lord of The Feast holds an oversized longbow, strung with thick sinew. A quiver on his back holds enormous arrows, some bristling with barbed snares, others connected to coils of chains around the beast’s wrists, while others are tipped with {@item delerium|DoDr} shards.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -4760,7 +4761,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -4972,7 +4973,7 @@
 				{
 					"name": "Contaminating Touch",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) necrotic damage, and the target must succeed on a {@dc 16} Constitution saving throw or receive one level of contamination."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) necrotic damage, and the target must succeed on a {@dc 16} Constitution saving throw or receive one level of {@condition contamination|DoDr}."
 					]
 				},
 				{
@@ -4984,7 +4985,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -5014,15 +5015,15 @@
 				{
 					"name": "Contaminate (Costs 3 Actions)",
 					"entries": [
-						"Each creature {@condition restrained} by the Pale Man’s Infest the Flesh must succeed on a {@dc 16} Constitution saving throw or gain one level of contamination."
+						"Each creature {@condition restrained} by the Pale Man’s Infest the Flesh must succeed on a {@dc 16} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
 					]
 				}
 			],
 			"fluff": {
 				"entries": [
-					"Friedrich Von Lichten ambitiously explored the mutagenic effects of delerium after Drakkenheim’s destruction, and was among the first to fully describe the effects of eldritch contamination upon the human body. He was ejected from the Amethyst Academy when it was discovered he was using apprentices as test subjects. So grave was his trespass, that the Academy notified the Silver Order of his existence, putting a death bounty on his head. Both The Silver Order and the Amethyst Academy have been searching for him since.",
-					"Friedrich von Lichten has fully embraced contamination and transformed into a monster, and is now the Pale Man. He has maintained his intellect, and drapes his hunched and withered figure in a black cloak. Beneath his paper-thin skin are wriggling and writhing things. His lidless eyes are sunken, his teeth are prominent, yellowing and decaying. One can just make out a sickly green tongue that darts out when he speaks. He talks in a stunted, almost exasperated tone. ",
-					"He presents his estate as a safehouse for the lost and forgotten. The Pale Man sows the rumours that he can help contaminated people so he can use them as test subjects for his experiments. When he meets a transformed or contaminated creature, he presents himself as a helpful expert, offering to treat any individual left in his care. He never actually cures contamination, but sometimes helps other transformed monsters become somewhat lucid so he can make better use of them as minions. The Pale Man spends most of his time in the repurposed master bedroom of the estate he uses as his laboratory, and gives orders only to his most trusted thralls.",
+					"Friedrich Von Lichten ambitiously explored the mutagenic effects of {@item delerium|DoDr} after Drakkenheim’s destruction, and was among the first to fully describe the effects of eldritch {@condition contamination|DoDr} upon the human body. He was ejected from the Amethyst Academy when it was discovered he was using apprentices as test subjects. So grave was his trespass, that the Academy notified the Silver Order of his existence, putting a death bounty on his head. Both The Silver Order and the Amethyst Academy have been searching for him since.",
+					"Friedrich von Lichten has fully embraced {@condition contamination|DoDr} and transformed into a monster, and is now the Pale Man. He has maintained his intellect, and drapes his hunched and withered figure in a black cloak. Beneath his paper-thin skin are wriggling and writhing things. His lidless eyes are sunken, his teeth are prominent, yellowing and decaying. One can just make out a sickly green tongue that darts out when he speaks. He talks in a stunted, almost exasperated tone. ",
+					"He presents his estate as a safehouse for the lost and forgotten. The Pale Man sows the rumours that he can help contaminated people so he can use them as test subjects for his experiments. When he meets a transformed or contaminated creature, he presents himself as a helpful expert, offering to treat any individual left in his care. He never actually cures {@condition contamination|DoDr}, but sometimes helps other transformed monsters become somewhat lucid so he can make better use of them as minions. The Pale Man spends most of his time in the repurposed master bedroom of the estate he uses as his laboratory, and gives orders only to his most trusted thralls.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -5031,7 +5032,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -5113,7 +5114,7 @@
 				{
 					"name": "Contaminated Ammunition",
 					"entries": [
-						"The Rat Prince carries {@dice 2d6} pieces of ammunition laced with delerium fragments. These projectiles cause {@damage 1d6} extra damage on a hit, and the target must succeed on a {@dc 10} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
+						"The Rat Prince carries {@dice 2d6} pieces of ammunition laced with {@item delerium|DoDr} fragments. These projectiles cause {@damage 1d6} extra damage on a hit, and the target must succeed on a {@dc 10} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
 					]
 				}
 			],
@@ -5145,7 +5146,7 @@
 				{
 					"name": "Delerium Healing",
 					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 					]
 				}
 			],
@@ -5186,8 +5187,8 @@
 			"fluff": {
 				"entries": [
 					"Ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. Ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later.",
-					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and delerium are available.",
-					"This ratling stands head-and-shoulders over the others, and has black-brown fur and a wicked grin - some of his frontmost teeth are delerium crystals. He wears scavenged bits of light armour, tattered dark blue rags, and a gold crown which is slightly too small for his head.",
+					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
+					"This ratling stands head-and-shoulders over the others, and has black-brown fur and a wicked grin - some of his frontmost teeth are {@item delerium|DoDr} crystals. He wears scavenged bits of light armour, tattered dark blue rags, and a gold crown which is slightly too small for his head.",
 					{
 						"type": "entries",
 						"name": "Monsters of Drakkenheim",
@@ -5196,7 +5197,7 @@
 							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
 							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
 							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr|delerium shard} to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr|delerium shard} in this way, the shard can’t be used in this manner again for twenty four hours."
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
 						]
 					}
 				]
@@ -5216,7 +5217,7 @@
 				{
 					"type": "list",
 					"items": [
-						"A 10 foot radius cylinder of delerium sludge spouts up from the floor and raises 30 feet into the air before bubbling back down. Any creature caught in this spout must succeed on a {@dc 18} Constitution saving throw. They take 42 ({@damage 12d6}) necrotic damage on a failed saving throw, and half as much on a successful one. In addition, characters who fail the saving throw gain one level of {@condition contamination|DoDr}.",
+						"A 10 foot radius cylinder of {@item delerium|DoDr} sludge spouts up from the floor and raises 30 feet into the air before bubbling back down. Any creature caught in this spout must succeed on a {@dc 18} Constitution saving throw. They take 42 ({@damage 12d6}) necrotic damage on a failed saving throw, and half as much on a successful one. In addition, characters who fail the saving throw gain one level of {@condition contamination|DoDr}.",
 						"Walls within 120 feet of the Gravekeeper sprout grasping, fleshy arms. Each creature of the Gravekeepers choice that starts its turn within 10 feet of such a wall must succeed on a DC 15 Dexterity saving throw or be grappled. Escaping requires a successful {@dc 15} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
 						"A torch or lantern hanging in the room emits one of the Gravekeeper’s lantern blasts."
 					]
@@ -5252,7 +5253,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp, which the spell consumes",
 					"consume": true,
 					"cost": 10000
 				}
@@ -5329,7 +5330,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -5357,7 +5358,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "An {@item eldritch lily|DoDr} mixed into 250 gp worth of specially-prepared purified fluids, which the spell consumes",
+					"text": "An eldritch lily mixed into 250 gp worth of specially-prepared purified fluids, which the spell consumes",
 					"consume": true,
 					"cost": 25000
 				}
@@ -5434,7 +5435,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -5465,7 +5466,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium shard} worth 500 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} shard worth 500 gp, which the spell consumes",
 					"consume": true,
 					"cost": 50000
 				}
@@ -5481,7 +5482,7 @@
 			],
 			"entries": [
 				"When you cast this spell, you gain one level of {@condition contamination|DoDr}. ",
-				"You draw unrestrained arcane magic from the {@item delerium|DoDr|delerium shard} you hold in your hand. Until the spell ends, you gain the following benefits :",
+				"You draw unrestrained arcane magic from the {@item delerium|DoDr} shard you hold in your hand. Until the spell ends, you gain the following benefits :",
 				{
 					"type": "list",
 					"items": [
@@ -5545,7 +5546,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -5577,7 +5578,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp, which the spell consumes",
 					"consume": true,
 					"cost": 10000
 				}
@@ -5589,7 +5590,7 @@
 			],
 			"entries": [
 				"When you cast this spell, you gain one level of {@condition contamination|DoDr}.",
-				"You ignite arcane energies stored inside a {@item delerium|DoDr|delerium fragment} held in your hand, and hurl it towards a space you can see within range. It explodes in a 20-foot-radius sphere of erratic psychic energy that overwhelms the minds and senses of those within. Each creature in the sphere must succeed on an intelligence saving throw. On a failed save, a creature takes {@damage 10d6} psychic damage and becomes {@condition incapacitated} until the end of their next turn. On a successful save, a target takes half as much damage and suffers none of the spell’s other effects."
+				"You ignite arcane energies stored inside a {@item delerium|DoDr} fragment held in your hand, and hurl it towards a space you can see within range. It explodes in a 20-foot-radius sphere of erratic psychic energy that overwhelms the minds and senses of those within. Each creature in the sphere must succeed on an intelligence saving throw. On a failed save, a creature takes {@damage 10d6} psychic damage and becomes {@condition incapacitated} until the end of their next turn. On a successful save, a target takes half as much damage and suffers none of the spell’s other effects."
 			],
 			"entriesHigherLevel": [
 				{
@@ -5659,7 +5660,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -5691,7 +5692,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp, which the spell consumes",
 					"consume": true,
 					"cost": 10000
 				}
@@ -5703,7 +5704,7 @@
 			],
 			"entries": [
 				"When you cast this spell, you gain one level of {@condition contamination|DoDr}.",
-				"You draw chaotic magical power from the {@item delerium|DoDr|delerium fragment} held in your hand, and blast a creature you can see within range with paradoxical power. Choose one ability score, then choose cold, fire, lightning, necrotic, psychic, or radiant damage. The target must succeed on a saving throw using the chosen ability score; it takes {@damage 6d6} damage of the chosen type on a failed saving throw, or half as much on a successful one. "
+				"You draw chaotic magical power from the {@item delerium|DoDr} fragment held in your hand, and blast a creature you can see within range with paradoxical power. Choose one ability score, then choose cold, fire, lightning, necrotic, psychic, or radiant damage. The target must succeed on a saving throw using the chosen ability score; it takes {@damage 6d6} damage of the chosen type on a failed saving throw, or half as much on a successful one. "
 			],
 			"entriesHigherLevel": [
 				{
@@ -5775,7 +5776,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -5803,7 +5804,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "An alchemical cocktail made from rare components and {@item delerium|DoDr|delerium dust} worth 250 gold, which the target consumes as part of the spell",
+					"text": "An alchemical cocktail made from rare components and {@item delerium|DoDr} dust worth 250 gold, which the target consumes as part of the spell",
 					"consume": true,
 					"cost": 25000
 				}
@@ -5860,7 +5861,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -5889,7 +5890,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A {@item delerium|DoDr|delerium crystal} or holy relic worth 1,000 gp",
+					"text": "A {@item delerium|DoDr} crystal or holy relic worth 1,000 gp",
 					"cost": 100000
 				}
 			},
@@ -5980,7 +5981,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6088,7 +6089,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6120,7 +6121,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp, which the spell consumes",
 					"consume": true,
 					"cost": 10000
 				}
@@ -6203,7 +6204,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6235,7 +6236,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp, which the spell consumes",
 					"consume": true,
 					"cost": 10000
 				}
@@ -6316,7 +6317,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6345,7 +6346,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp for each participating creature, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp for each participating creature, which the spell consumes",
 					"cost": 10000,
 					"consume": true
 				}
@@ -6357,7 +6358,22 @@
 			],
 			"entries": [
 				"This spell may only be cast in an area covered by the Deep Haze.",
-				"You perform a holy ceremony involving up to 12 faithful and willing humanoid creatures that ends when each participating creature drives a {@item delerium|DoDr|delerium shard} into their chest. Those creatures become {@condition sanctified|DoDr}.",
+				"You perform a holy ceremony involving up to 12 faithful and willing humanoid creatures that ends when each participating creature drives a {@item delerium|DoDr} fragment into their chest. Those creatures become sanctified :",
+				{
+					"type":"inset",
+					"name": "Sanctified",
+					"entries":[
+						"A character who participates in the Sacrament of the Falling Fire gains the following traits, so long as they adhere to the tenets and faith of the Falling Fire:",
+						{
+							"type": "list",
+							"items":[
+								"You gain advantage on saving throws against being {@condition charmed} or {@condition frightened}, and resistance to necrotic and radiant damage. You are immune to {@condition contamination|DoDr}.",
+								"If you die, your soul enters the {@item delerium|DoDr} fragment embedded into your chest. You can’t be raised from the dead while your soul is in the fragment"
+							]
+						},
+						"The embedded {@item delerium|DoDr} fragment does not contaminate or otherwise harm a character who keeps their conviction."
+					]
+				},
 				"When you finish casting this spell, a hostile {@creature shadow} appears and attacks each participant, as a manifestation of that character’s inner darkness. The GM may determine that a character who carries great anger, fear, or hate in their heart causes a {@creature wraith} to manifest instead. "
 			],
 			"miscTags": [
@@ -6412,7 +6428,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6444,7 +6460,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp, which the spell consumes",
 					"consume": true,
 					"cost": 10000
 				}
@@ -6563,7 +6579,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6591,7 +6607,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "500 gp worth of specially-prepared alchemical fluids and a {@item delerium|DoDr|delerium geode} worth 5,000 gp, all of which are consumed by the spell",
+					"text": "500 gp worth of specially-prepared alchemical fluids and a {@item delerium|DoDr} geode worth 5,000 gp, all of which are consumed by the spell",
 					"consume": true,
 					"cost": 550000
 				}
@@ -6610,7 +6626,7 @@
 					"type": "entries",
 					"name": "Researching the spell",
 					"entries": [
-						" A character who can cast 6th level spells who knows the spells {@spell forced evolution|DoDr} and {@spell neutralizing field|DoDr}, and has witnessed another creature undergo a monstrous transformation may research siphon contamination."
+						" A character who can cast 6th level spells who knows the spells {@spell forced evolution|DoDr} and {@spell neutralizing field|DoDr}, and has witnessed another creature undergo a monstrous transformation may research siphon {@condition contamination|DoDr}."
 					]
 				}
 			],
@@ -6663,7 +6679,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6695,7 +6711,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a {@item delerium|DoDr|delerium fragment} worth 100 gp, which the spell consumes",
+					"text": "a {@item delerium|DoDr} fragment worth 100 gp, which the spell consumes",
 					"cost": 10000
 				}
 			},
@@ -6777,7 +6793,7 @@
 					{
 						"name": "Contaminated Spells",
 						"entries": [
-							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require delerium as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
+							"Several spells include the “contaminated” descriptor beside their school of magic. Such spells always require {@item delerium|DoDr} as a material component, and cause the caster to gain {@condition contamination|DoDr} when cast, as described in the spell description of each spell. The spellcaster can’t prevent or ignore gaining this {@condition contamination|DoDr} level by any means, otherwise a contaminated spell simply fails."
 						]
 					}
 				]
@@ -6903,9 +6919,9 @@
 							"items": [
 								"{@b Spell Component.} Delerium may be used as an arcane focus or material component for any spell on the sorcerer, warlock, or wizard spell list. When casting a spell which requires a costly material component, a spellcaster may instead use delerium of equivalent value to the required cost.",
 								"{@b Magic Items.} Delerium is an exceptional material for creating magical items of all kinds. Several new magic items are described herein, but any existing magic item described in the Core Rules could be made with delerium. Fragments, shards, crystals, and geodes may be used to make uncommon, rare, very rare, and legendary items respectively. At the GM’s discretion, characters who can cast 5th level spells or higher may learn techniques to craft magic items of their own during their downtime.",
-								"{@b Stable Delerium.} The process for crafting magic items with delerium renders the crystals stable. Unless otherwise specified, characters do not take damage nor risk contamination when they touch or handle stable delerium. Stable delerium is damaged and destroyed in the same manner as a normal magic item of its kind.",
+								"{@b Stable Delerium.} The process for crafting magic items with delerium renders the crystals stable. Unless otherwise specified, characters do not take damage nor risk {@condition contamination|DoDr} when they touch or handle stable delerium. Stable delerium is damaged and destroyed in the same manner as a normal magic item of its kind.",
 								"{@b Delerium Dust.} Delerium dust is made by grinding the crystals against one another to create a fine powder. This milling process is extraordinarily hazardous unless performed within an antimagic field. Delerium dust can be used in alchemy, as a spell component, a reagent for brewing potions, or mixed into inks for spell scrolls.",
-								"{@b Improvised Weapons & Ammunition.} Delerium fragments may be used as ammunition for a sling or fashioned into a makeshift club. Such weapons and ammunition deal an extra 1d6 necrotic damage, and non-contaminated creatures struck must succeed on a {@dc 10} Constitution saving throw or gain one level of contamination. Delerium used as ammunition in this way is destroyed."
+								"{@b Improvised Weapons & Ammunition.} Delerium fragments may be used as ammunition for a sling or fashioned into a makeshift club. Such weapons and ammunition deal an extra {@damage 1d6} necrotic damage, and non-contaminated creatures struck must succeed on a {@dc 10} Constitution saving throw or gain one level of {@condition contamination|DoDr}. Delerium used as ammunition in this way is destroyed."
 							]
 						}
 					]
@@ -6934,7 +6950,7 @@
 			"rarity": "rare",
 			"entries": [
 				"This bright orange fluid is stored in a syringe and charged with arcane magic. You can use an action to administer the shot directly to the heart of yourself or another willing creature.",
-				"You are protected against contamination for six hours after receiving a dose of aqua expurgo. During this time, whenever you fail a saving throw against an effect that would cause you to gain one or more {@condition contamination|DoDr} levels, you can choose to succeed instead. You can use this ability three times, after which the effects of aqua expurgo expire.",
+				"You are protected against {@condition contamination|DoDr} for six hours after receiving a dose of aqua expurgo. During this time, whenever you fail a saving throw against an effect that would cause you to gain one or more {@condition contamination|DoDr} levels, you can choose to succeed instead. You can use this ability three times, after which the effects of aqua expurgo expire.",
 				"If the effects of aqua expurgo expire in this manner, you immediately take 10 ({@damage 3d6}) necrotic damage and become incapacitated for 1 minute while you violently retch corrupt bile. Your hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until you finish a long rest. You die if this effect reduces your hit point maximum to 0. The necrotic damage can’t be reduced or prevented by any means."
 			]
 		},
@@ -6945,7 +6961,7 @@
 			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
-				"This spherical glass orb contains an ignited delerium shard hovering gently within. Electrical currents of yellow, green, and purple energy streak from the crystal and cascade along the glass, rendering it warm to the touch.",
+				"This spherical glass orb contains an ignited {@item delerium|DoDr} shard hovering gently within. Electrical currents of yellow, green, and purple energy streak from the crystal and cascade along the glass, rendering it warm to the touch.",
 				"As an action you can throw the orb up to 30 feet. It shatters on impact, releasing a 20-foot-radius burst of contaminated energy. Creatures in the area must succeed on a {@dc 15} Constitution save or take {@damage 8d6} necrotic damage, and take one level of {@condition contamination|DoDr}. In addition, an {@table arcane anomalies|DoDr|arcane anomaly} occurs, centred on the point of impact. "
 			]
 		},
@@ -6975,7 +6991,7 @@
 				"Wizard"
 			],
 			"entries": [
-				"This focus is made from a refined {@item delerium|DoDr|delerium crystal} encased in a glass orb. While holding it, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your spells. In addition, you can use the crystal as a spellcasting focus.",
+				"This focus is made from a refined {@item delerium|DoDr} crystal encased in a glass orb. While holding it, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your spells. In addition, you can use the crystal as a spellcasting focus.",
 				"Once per day when you cast a spell of 5th level or lower, you may draw on the energy stored within the crystal to do so without expending a spell slot. If you do, you trigger a random {@table arcane anomalies|DoDr|arcane anomaly}. "
 			]
 		},
@@ -7013,7 +7029,7 @@
 					"type": "inset",
 					"name": "Artificers in Drakkenheim",
 					"entries": [
-						"With the DM's permission, {@class Artifiers|TCE} may also create the following items using the {@charoption Replicate Magic Item|TCE} infusion",
+						"With the DM's permission, an {@class Artificer|TCE} may also create the following items using the {@optfeature Replicate Magic Item|TCE} infusion",
 						{
 							"type": "list",
 							"items": [
@@ -7071,7 +7087,7 @@
 					"type": "inset",
 					"name": "Artificers in Drakkenheim",
 					"entries": [
-						"With the DM's permission, {@class Artifiers|TCE} may also create the following items using the {@charoption Replicate Magic Item|TCE} infusion",
+						"With the DM's permission, an {@class Artificer|TCE} may also create the following items using the {@optfeature Replicate Magic Item|TCE} infusion",
 						{
 							"type": "list",
 							"items": [
@@ -7095,7 +7111,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"entries": [
-				"This pouch contains an ounce of purified and magically charged delerium dust. It may be ingested as an action. When you consume a full pouch, you gain advantage on spell attack rolls and saving throws against spells for one minute. ",
+				"This pouch contains an ounce of purified and magically charged {@item delerium|DoDr} dust. It may be ingested as an action. When you consume a full pouch, you gain advantage on spell attack rolls and saving throws against spells for one minute. ",
 				"You gain one level of {@condition contamination|DoDr} when you consume {@i refined delerium dust}."
 			]
 		},
@@ -7112,13 +7128,13 @@
 			"recharge": "dawn",
 			"charges": 5,
 			"entries": [
-				"This shield is constructed from hammered meteoric iron and embossed with a {@item delerium|DoDr|delerium crystal}. When you are hit with a melee or ranged attack while wielding this shield, you can use your reaction to absorb residual energy from the attack. You suffer damage and effects from the attack as normal, and the shield gains 1 charge. The shield can have a maximum of 5 charges. Unexpended charges are lost each day at dawn.",
+				"This shield is constructed from hammered meteoric iron and embossed with a {@item delerium|DoDr} crystal. When you are hit with a melee or ranged attack while wielding this shield, you can use your reaction to absorb residual energy from the attack. You suffer damage and effects from the attack as normal, and the shield gains 1 charge. The shield can have a maximum of 5 charges. Unexpended charges are lost each day at dawn.",
 				"As an action while wielding the shield, you can expend all its charges to release a forceful blast. Creatures within 10 feet of you must succeed on a {@dc 15} Constitution saving throw. On a failed saving throw, creatures in the area take {@damage 1d6} force damage for each expended charge, and are flung back 10 feet and knocked {@condition prone}.",
 				{
 					"type": "inset",
 					"name": "Artificers in Drakkenheim",
 					"entries": [
-						"With the DM's permission, {@class Artifiers|TCE} may also create the following items using the {@charoption Replicate Magic Item|TCE} infusion",
+						"With the DM's permission, an {@class Artificer|TCE} may also create the following items using the {@optfeature Replicate Magic Item|TCE} infusion",
 						{
 							"type": "list",
 							"items": [
@@ -7153,7 +7169,7 @@
 					"type": "inset",
 					"name": "Artificers in Drakkenheim",
 					"entries": [
-						"With the DM's permission, {@class Artifiers|TCE} may also create the following items using the {@charoption Replicate Magic Item|TCE} infusion",
+						"With the DM's permission, an {@class Artificer|TCE} may also create the following items using the {@optfeature Replicate Magic Item|TCE} infusion",
 						{
 							"type": "list",
 							"items": [
@@ -7185,7 +7201,7 @@
 					"type": "inset",
 					"name": "Artificers in Drakkenheim",
 					"entries": [
-						"With the DM's permission, {@class Artifiers|TCE} may also create the following items using the {@charoption Replicate Magic Item|TCE} infusion",
+						"With the DM's permission, an {@class Artificer|TCE} may also create the following items using the {@optfeature Replicate Magic Item|TCE} infusion",
 						{
 							"type": "list",
 							"items": [
@@ -7229,7 +7245,7 @@
 			"staff": true,
 			"entries": [
 				"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it.",
-				"The staff has 20 charges for the following properties. The staff regains 1 charge each hour it rests in the Deep Haze. You can also touch a {@item delerium|DoDr|delerium crystal} to the staff, which causes it to regain {@dice 2d8 + 4} charges, then the crystal crumbles to dust. If you expend the last charge, you immediately gain {@dice 1d6} levels of {@condition contamination|DoDr}.",
+				"The staff has 20 charges for the following properties. The staff regains 1 charge each hour it rests in the Deep Haze. You can also touch a {@item delerium|DoDr} crystal to the staff, which causes it to regain {@dice 2d8 + 4} charges, then the crystal crumbles to dust. If you expend the last charge, you immediately gain {@dice 1d6} levels of {@condition contamination|DoDr}.",
 				{
 					"name": "Spells",
 					"type": "entries",
@@ -7267,8 +7283,13 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
-					"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+					{
+						"name": "Seal of Drakkenheim",
+						"entries": [
+							"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
+							"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+						]
+					}
 				]
 			}
 		},
@@ -7304,7 +7325,7 @@
 			"staff": true,
 			"entries": [
 				"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to spell attack rolls and your spell save DC.",
-				"The staff has 20 charges, and regains 2d10 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff triggers a random {@table arcane anomalies|DoDr|arcane anomaly}. On a 20, the staff regains {@dice 1d10} charges.",
+				"The staff has 20 charges, and regains {@dice 2d10} expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff triggers a random {@table arcane anomalies|DoDr|arcane anomaly}. On a 20, the staff regains {@dice 1d10} charges.",
 				"While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: {@spell haste} (3 charges), {@spell slow} (3 charges), {@spell arcane eye} (4 charges), {@spell dimension door} (4 charges), {@spell Bigby's hand} (5 charges), {@spell wall of force} (5 charges), {@spell disintegrate} (6 charges), {@spell reverse gravity} (7 charges), or {@spell maze} (8 charges)",
 				"You can also use an action to cast one of the following spells from the staff without using any charges: {@spell detect magic}, {@spell Tenser's floating disk}, {@spell mage armor}, {@spell mending}, {@spell message}, or {@spell misty step}."
 			],
@@ -7328,8 +7349,13 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
-					"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+					{
+						"name": "Seal of Drakkenheim",
+						"entries": [
+							"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
+							"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+						]
+					}
 				]
 			}
 		},
@@ -7347,8 +7373,13 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
-					"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+					{
+						"name": "Seal of Drakkenheim",
+						"entries": [
+							"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
+							"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+						]
+					}
 				]
 			}
 		},
@@ -7387,10 +7418,15 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
-					"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours.",
 					{
-						"name": "Relics of Saint Vitruvio",
+						"name": "Seal of Drakkenheim",
+						"entries": [
+							"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
+							"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+						]
+					},
+					{
+						"name": "Relic of Saint Vitruvio",
 						"entries": [
 							"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
 							"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
@@ -7415,8 +7451,13 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
-					"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+					{
+						"name": "Seal of Drakkenheim",
+						"entries": [
+							"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
+							"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+						]
+					}
 				]
 			}
 		},
@@ -7445,8 +7486,13 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
-					"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+					{
+						"name": "Seal of Drakkenheim",
+						"entries": [
+							"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
+							"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+						]
+					}
 				]
 			}
 		},
@@ -7471,8 +7517,13 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
-					"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+					{
+						"name": "Seal of Drakkenheim",
+						"entries": [
+							"The {@b Seals of Drakkenheim} were jointly crafted by mages of the Amethyst Academy and the clergy of the Sacred Flame, and gifted to the royal family of Drakkenheim after the Edicts of Lumen. The six members of the royal council traditionally each carried one of these potent symbols of political authority, while the Crown of Westemär was worn by the monarch. While each faction seeks at least one of these magic items, the Hooded Lanterns and the Queen of Thieves wish to collect all of them so they can determine the political destiny of Drakkenheim.",
+							"A character cannot attune to more than one {@b Seal of Drakkenheim}. Guardian constructs in Drakkenheim such as {@creature wall gargoyle|DoDr} and {@creature tower dragon|DoDr} do not attack you while you are attuned to one of the {@b Seals of Drakkenheim}. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it. As an action, you may present a {@b Seal of Drakkenheim} to rebuke the guardians. You make an opposed Charisma ability check against each {@creature wall gargoyle|DoDr} or {@creature tower dragon|DoDr} that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours."
+						]
+					}
 				]
 			}
 		},
@@ -7520,10 +7571,15 @@
 				"zone of truth"
 			],
 			"hasFluff": true,
-			"Fluff": {
+			"fluff": {
 				"entries": [
-					"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
-					"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+					{
+						"name": "Relic of Saint Vitruvio",
+						"entries": [
+							"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
+							"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+						]
+					}
 				]
 			}
 		},
@@ -7559,10 +7615,15 @@
 				"flame strike"
 			],
 			"hasFluff": true,
-			"Fluff": {
+			"fluff": {
 				"entries": [
-					"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
-					"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+					{
+						"name": "Relic of Saint Vitruvio",
+						"entries": [
+							"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
+							"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+						]
+					}
 				]
 			}
 		},
@@ -7584,10 +7645,15 @@
 				"While wearing this helm, you can see {@condition invisible} creatures and objects within 60 feet of you. In addition, you gain a +2 bonus to spell attack rolls, and increase your spell saving throw DC by 2."
 			],
 			"hasFluff": true,
-			"Fluff": {
+			"fluff": {
 				"entries": [
-					"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
-					"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+					{
+						"name": "Relic of Saint Vitruvio",
+						"entries": [
+							"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
+							"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+						]
+					}
 				]
 			}
 		},
@@ -7610,10 +7676,15 @@
 				"counterspell"
 			],
 			"hasFluff": true,
-			"Fluff": {
+			"fluff": {
 				"entries": [
-					"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
-					"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+					{
+						"name": "Relic of Saint Vitruvio",
+						"entries": [
+							"These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.",
+							"A character attuned to three Relics of Saint Vitruvio may cast the {@spell heal} spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio. "
+						]
+					}
 				]
 			}
 		}
@@ -7636,7 +7707,7 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
-					"The head of this bludgeoning weapon is made from a massive {@item delerium|DoDr|delerium crystal} that crackles with arcane energies. When you hit with an attack using this weapon, the target takes an extra {@damage 3d6} necrotic damage.",
+					"The head of this bludgeoning weapon is made from a massive {@item delerium|DoDr} crystal that crackles with arcane energies. When you hit with an attack using this weapon, the target takes an extra {@damage 3d6} necrotic damage.",
 					"When you roll a 20 on an attack roll made with this weapon, it unleashes an {@table arcane anomalies|DoDr|arcane anomaly}. You can roll twice on the table and choose either result."
 				]
 			}
@@ -7667,10 +7738,10 @@
 					"Wizard"
 				],
 				"entries": [
-					"This sword has a small delerium sliver encased in glass and set in the hilt like a gemstone. The blade is made of meteoric iron infused with delerium dust, which causes it to softly glow with octarine light.",
+					"This sword has a small {@item delerium|DoDr} sliver encased in glass and set in the hilt like a gemstone. The blade is made of meteoric iron infused with {@item delerium|DoDr} dust, which causes it to softly glow with octarine light.",
 					"You gain a +2 bonus to attack and damage rolls made with this weapon",
 					"When you make an attack with this weapon, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls. In addition, you can use this weapon as a spellcasting focus.",
-					"When you roll a 20 on an attack roll made with this weapon against a humanoid, the humanoid must succeed on a {@dc 15} Constitution saving throw or take an extra {@damage 3d6} necrotic damage and gain one level of contamination."
+					"When you roll a 20 on an attack roll made with this weapon against a humanoid, the humanoid must succeed on a {@dc 15} Constitution saving throw or take an extra {@damage 3d6} necrotic damage and gain one level of {@condition contamination|DoDr}."
 				]
 			}
 		},
@@ -7688,7 +7759,7 @@
 			"ammo": true,
 			"entries": [
 				"{@note * This generic variant has the same name and source as the item {@item Hardened Delerium-tipped Arrow|DoDr}}.",
-				"This piece of ammunition has a refined {@item delerium|DoDr} arrowtip. A creature hit by a ranged attack using one of these arrows takes an extra 3d6 necrotic damage and must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition contamination|DoDr}.",
+				"This piece of ammunition has a refined {@item delerium|DoDr} arrowtip. A creature hit by a ranged attack using one of these arrows takes an extra {@damage 3d6} necrotic damage and must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition contamination|DoDr}.",
 				"Once it hits a target, the {@item delerium|DoDr} tip crumbles to dust and the arrow becomes nonmagical."
 			],
 			"inherits": {
@@ -7723,13 +7794,13 @@
 				"bonusWeapon": "+2",
 				"charges": 3,
 				"entries": [
-					"This magical bow or crossbow has an intricate arrangement of {@item delerium|DoDr|delerium shards} and focusing lenses along the stock where a bolt would normally be loaded, and instead magically conjures its own projectiles. You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of piercing damage and ignores the ammunition and loading properties.",
+					"This magical bow or crossbow has an intricate arrangement of {@item delerium|DoDr} shards and focusing lenses along the stock where a bolt would normally be loaded, and instead magically conjures its own projectiles. You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of piercing damage and ignores the ammunition and loading properties.",
 					"The weapon has 3 charges, which are regained each day at dawn. When you hit with a ranged attack using it, you can cause the bolt to explode in a brilliant flash of light. The target you hit and any creatures within 10 feet of it must succeed on a {@dc 15} Constitution saving throw or become {@condition blinded} until the end of your next turn.",
 					{
 						"type": "inset",
 						"name": "Artificers in Drakkenheim",
 						"entries": [
-							"With the DM's permission, {@class Artifiers|TCE} may also create the following items using the {@charoption Replicate Magic Item|TCE} infusion",
+							"With the DM's permission, an {@class Artificer|TCE} may also create the following items using the {@optfeature Replicate Magic Item|TCE} infusion",
 							{
 								"type": "list",
 								"items": [
