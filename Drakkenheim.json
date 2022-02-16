@@ -5039,174 +5039,179 @@
 			}
 		},
 		{
-			"name": "Rat Prince",
-			"group": [
-				"Monsters of Drakkenheim"
-			],
-			"isNamedCreature": true,
-			"source": "DoDr",
-			"page": 202,
-			"size": "S",
-			"type": "monstrosity",
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				12
-			],
-			"hp": {
-				"formula": "6d8 + 6",
-				"average": 33
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 30,
-				"swim": 30
-			},
-			"str": 12,
-			"dex": 19,
-			"con": 13,
-			"int": 9,
-			"wis": 15,
-			"cha": 9,
-			"skill": {
-				"perception": "+6",
-				"stealth": "+8",
-				"acrobatics": "+6",
-				"athletics": "+3"
-			},
-			"passive": 16,
-			"languages": [
-				"Common"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Keen Smell",
-					"entries": [
-						"The  Rat Prince has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
-					]
-				},
-				{
-					"name": "Pack Tactics",
-					"entries": [
-						"The  Rat Prince has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-					]
-				},
-				{
-					"name": "Fully Contaminated",
-					"entries": [
-						"This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells."
-					]
-				},
-				{
-					"name": "Haze Adaptation",
-					"entries": [
-						"This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog."
-					]
-				},
-				{
-					"name": "Haze Dependence",
-					"entries": [
-						"This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze."
-					]
-				},
-				{
-					"name": "Contaminated Ammunition",
-					"entries": [
-						"The Rat Prince carries {@dice 2d6} pieces of ammunition laced with {@item delerium|DoDr} fragments. These projectiles cause {@damage 1d6} extra damage on a hit, and the target must succeed on a {@dc 10} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The Rat Prince makes three attacks: two with his short swords, and one with his contaminated bite."
-					]
-				},
-				{
-					"name": "Shortsword",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
-					]
-				},
-				{
-					"name": "Hand Crossbow",
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
-					]
-				},
-				{
-					"name": "Contaminated Bite",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage, plus an extra 10 ({@damage 3d6}) necrotic damage, and the creature must succeed on a {@dc 11} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
-					]
-				},
-				{
-					"name": "Delerium Healing",
-					"entries": [
-						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
-					]
-				}
-			],
-			"bonus": [
-				{
-					"name": "Cunning Action",
-					"entries": [
-						"The Rat Prince takes the Dash, Disengage, or Hide action."
-					]
-				}
-			],
-			"traitTags": [
-				"Keen Senses",
-				"Pack Tactics"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"N"
-			],
-			"miscTags": [
-				"MW",
-				"RW",
-				"RNG"
-			],
-			"hasFluff": true,
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"fluff": {
-				"entries": [
-					"Ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. Ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later.",
-					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
-					"This ratling stands head-and-shoulders over the others, and has black-brown fur and a wicked grin - some of his frontmost teeth are {@item delerium|DoDr} crystals. He wears scavenged bits of light armour, tattered dark blue rags, and a gold crown which is slightly too small for his head.",
-					{
-						"type": "entries",
-						"name": "Monsters of Drakkenheim",
-						"entries": [
-							"All non-humanoid creatures encountered in Drakkenheim possess the following traits. These do not change the monsters’ challenge ratings :",
-							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
-							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
-							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
-						]
-					}
-				]
-			},
-			"conditionInflict": [
-				"contamination|DoDr",
-				"exhaustion"
+	"name": "Rat Prince",
+	"group": [
+		"Monsters of Drakkenheim"
+	],
+	"isNamedCreature": true,
+	"source": "DoDr",
+	"page": 202,
+	"size": "S",
+	"type": "monstrosity",
+	"alignment": [
+		"A"
+	],
+	"ac": [
+		{
+			"ac": 15,
+			"from": [
+				"{@item leather armor|phb}"
 			]
 		}
+	],
+	"hp": {
+		"formula": "12d8 + 12",
+		"average": 66
+	},
+	"speed": {
+		"walk": 30,
+		"climb": 30,
+		"swim": 30
+	},
+	"str": 12,
+	"dex": 19,
+	"con": 13,
+	"int": 9,
+	"wis": 15,
+	"cha": 9,
+	"skill": {
+		"perception": "+6",
+		"stealth": "+8",
+		"acrobatics": "+6",
+		"athletics": "+3"
+	},
+	"passive": 16,
+	"languages": [
+		"Common"
+	],
+	"cr": "3",
+	"trait": [
+		{
+			"name": "Keen Smell",
+			"entries": [
+				"The Rat Prince has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+			]
+		},
+		{
+			"name": "Pack Tactics",
+			"entries": [
+				"The Rat Prince has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Fully Contaminated",
+			"entries": [
+				"This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells."
+			]
+		},
+		{
+			"name": "Haze Adaptation",
+			"entries": [
+				"This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog."
+			]
+		},
+		{
+			"name": "Haze Dependence",
+			"entries": [
+				"This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze."
+			]
+		},
+		{
+			"name": "Contaminated Ammunition",
+			"entries": [
+				"The Rat Prince carries {@dice 2d6} pieces of ammunition laced with {@item delerium|DoDr} fragments. These projectiles cause {@damage 1d6} extra damage on a hit, and the target must succeed on a {@dc 10} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The Rat Prince makes three attacks: two with his short swords, and one with his contaminated bite."
+			]
+		},
+		{
+			"name": "Shortsword",
+			"entries": [
+				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+			]
+		},
+		{
+			"name": "Hand Crossbow",
+			"entries": [
+				"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+			]
+		},
+		{
+			"name": "Contaminated Bite",
+			"entries": [
+				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage, plus an extra 10 ({@damage 3d6}) necrotic damage, and the creature must succeed on a {@dc 11} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
+			]
+		},
+		{
+			"name": "Delerium Healing",
+			"entries": [
+				"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Cunning Action",
+			"entries": [
+				"The Rat Prince takes the Dash, Disengage, or Hide action."
+			]
+		}
+	],
+	"traitTags": [
+		"Keen Senses",
+		"Pack Tactics"
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"C"
+	],
+	"damageTags": [
+		"P",
+		"N"
+	],
+	"miscTags": [
+		"MW",
+		"RW",
+		"RNG"
+	],
+	"hasFluff": true,
+	"senses": [
+		"darkvision 60 ft."
+	],
+	"senseTags": [
+		"D"
+	],
+	"fluff": {
+		"entries": [
+			"Ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. Ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later.",
+			"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
+			"This ratling stands head-and-shoulders over the others, and has black-brown fur and a wicked grin - some of his frontmost teeth are {@item delerium|DoDr} crystals. He wears scavenged bits of light armour, tattered dark blue rags, and a gold crown which is slightly too small for his head.",
+			{
+				"type": "entries",
+				"name": "Monsters of Drakkenheim",
+				"entries": [
+					"All non-humanoid creatures encountered in Drakkenheim possess the following traits. These do not change the monsters’ challenge ratings :",
+					"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
+					"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
+					"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
+					"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
+				]
+			}
+		]
+	},
+	"conditionInflict": [
+		"contamination|DoDr",
+		"exhaustion"
+	]
+}
 	],
 	"legendaryGroup": [
 		{
