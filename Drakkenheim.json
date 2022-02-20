@@ -211,7 +211,7 @@
 			"name": "Mutations and Madness",
 			"source": "DoDr",
 			"page": 223,
-			"ruleType": "O",
+			"type": "section",
 			"entries": [
 				"Each time a character gains a {@condition contamination|DoDr} level, it rolls {@dice 1d6}. If the result is equal to or less than the character’s current {@condition contamination|DoDr} level the creature gains a mutation. The Game Master may choose the mutation, or determine it randomly by rolling {@dice 1d20} on the Mutations Table. If the result is the same as a mutation affecting the creature currently, the GM chooses a different one or rolls again.",
 				{
@@ -364,6 +364,412 @@
 						[
 							"10",
 							"{@i “I must go into the ruins and kill. Rip and tear, until it is done.”}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Random Encounters in Drakkenheim",
+			"source": "DoDr",
+			"page": 69,
+			"type": "section",
+			"entries": [
+				"Dangerous monsters lurk everywhere in Drakkenheim. While characters navigate the ruins, ask each player to roll {@dice 1d20}...",
+				{
+					"type": "list",
+					"items": [
+						"For each hour spent exploring the city (as directed above)",
+						"Any time you feel the players are being indecisive or idle in a dangerous environment",
+						"Whenever the players are having an easy time and you need to shake things up",
+						"When directed by specific circumstances described within an adventure site"
+					]
+				},
+				"There is an encounter if any player rolls a natural one. Consult the random encounter tables below to determine what the characters encounter based on their location in the city. Some locations have their own unique random encounter tables. ",
+				"You may wish to invent additional complications to the encounter for each additional one rolled, such as an ambush, additional monsters, unfavourable terrain, or erratic magical effects. ",
+				"Conversely, rolling a natural 20 might add a bit of good fortune for the players, such as an opportunity to get the drop on foes or avoid them, a delerium deposit, monsters carrying treasure or a magic item, nearby allies who can help, or other advantageous circumstances for the characters. ",
+				"{@b If every player rolls a one.} What’s the worst that can happen? It happens! ",
+				"Finally, you can adjust the die size rolled when players check for random encounters, such as using a {@dice 1d10} or even {@dice 1d6}. The odds of a random encounter happening increase with lower die sizes, so this is ideal if you have a smaller group or want the characters to face more random encounters.",
+				{
+					"type": "table",
+					"name": "Sewer Encounters",
+					"source": "DoDr",
+					"page": 71,
+					"caption": "Sewer Encounters",
+					"colLabels": [
+						"d20",
+						"Encounter"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"{@footnote {@b Horribly Lost!}| The characters are badly turned around and become hopelessly lost in the ruins. They no longer know where they are anymore or what direction they are facing. They wander the city streets indefinitely, checking for random encounters as normal each hour. They don’t regain their bearings unless the circumstances of a random encounter lead them to clues or friendly NPCs who can help them.|Horribly Lost!}"
+						],
+						[
+							"2",
+							"{@footnote {@b Going in circles.}| The characters lose their position and get lost. They no longer know where they are anymore or what direction they are facing. They must wander the city streets for the next {@dice 1d4} hours, after which they regain their original position. Check for random encounters as normal each hour. A random encounter could result in circumstances where the characters no longer become lost.|Going in circles}"
+						],
+						[
+							"3",
+							"{@footnote {@b Wrong Turn}|The characters find themselves back where they started an hour ago. I guess you took a wrong turn somewhere?|Wrong Turn}"
+						],
+						[
+							"4",
+							"{@footnote {@b Gloaming Ray}|A {@creature cloaker} flies through the dark rooftops above looking for prey.|Gloaming Ray}"
+						],
+						[
+							"5",
+							"{@footnote {@b Living Ruins}|Several inanimate parts of the ruins suddenly spring to life as 2 ({@dice 1d4}) {@filter delerium elementals|bestiary|search=contaminated elementals}. Choose whichever type is most appropriate for the area.|Living Ruins}"
+						],
+						[
+							"6",
+							"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
+						],
+						[
+							"7",
+							"{@footnote {@b Sewer Monster}|An {@creature otyugh} feasting on offal lurks near a sewer access point.|Sewer Monster}"
+						],
+						[
+							"8",
+							"{@footnote {@b Drowned Dead}|A one-hundred-foot long corridor in the sewers is completely flooded. The tunnel has 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks} floating in it that appear lifeless unless attacked or until characters are halfway down the tunnel. The undead attempt to hold characters in place until they drown.|Drowned Dead}"
+						],
+						[
+							"9",
+							"{@footnote {@b Ratling Scavengers}|10 ({@dice 3d6}) {@creature ratling|DoDr|ratlings} hide down a nearby alley or passage awaiting unsuspecting prey.|Ratling Scavengers}"
+						],
+						[
+							"10",
+							"{@footnote {@b Stalking Vermin}|14 ({@dice 4d6}) {@creature ratling|DoDr|ratlings} and 5 ({@dice 2d4}) {@creature ratling guttersnipe|DoDr|ratling guttersnipes} have set up an ambush. These {@creature ratling|DoDr|ratlings} use bait to lure prey towards a dead-end street or sewer passage where the guttersnipes lurk on high ground to snipe their quarry with ranged attacks.|Stalking Vermin}"
+						],
+						[
+							"11",
+							"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements|Hateful Dead}"
+						],
+						[
+							"12",
+							"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
+						],
+						[
+							"13",
+							"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}|Gibbering Flesh}"
+						],
+						[
+							"14",
+							"{@footnote {@b Dozing Hulk}|A single {@creature haze hulk|DoDr} lays sleeping across the narrow road. Squeezing past without waking it may prove difficult, but it clutches a {@item delerium|DoDr} shard in its hand.|Dozing Hulk}"
+						],
+						[
+							"15",
+							"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
+						],
+						[
+							"16",
+							"{@footnote {@b Fallen Heroes}|5 ({@dice 2d4}) {@creature haze wight|DoDr|haze wights} are all that remains of this former adventuring party. They believe any living humanoids they encounter are mutated monsters.|Fallen Heroes}"
+						],
+						[
+							"17",
+							"{@footnote {@b Cleaning Cube}|A {@creature gelatinous cube} awaits down a narrow corridor in the sewers. It stays completely still until a creature enters its space.|Cleaning Cube}"
+						],
+						[
+							"18",
+							"{@footnote {@b Deep ones}|10 ({@dice 3d6}) aquatic {@creature delerium dreg|DoDr|delerium dregs} and 1 {@creature chuul} occupy a sewer junction or are emerging from a sewer exit.|Deep ones}"
+						],
+						[
+							"19",
+							"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
+						],
+						[
+							"20",
+							"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"name": "Outer City Encounters",
+					"source": "DoDr",
+					"page": 71,
+					"caption": "Outer City Encounters",
+					"colLabels": [
+						"d100",
+						"Encounter"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"00-03",
+							"{@footnote {@b Run out of Town}|Characters get turned around badly, and arrive at the nearest edge of town.|Run out of Town}"
+						],
+						[
+							"04-07",
+							"{@footnote {@b Uninvited Guests}|The characters arrive at the nearest city gate.|Uninvited Guests}"
+						],
+						[
+							"08-11",
+							"{@footnote {@b Wrong Turn}|The characters find themselves back where they started an hour ago. I guess you took a wrong turn somewhere?|Wrong Turn}"
+						],
+						[
+							"12-15",
+							"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
+						],
+						[
+							"16-19",
+							"{@footnote {@b Menacing Manticore}|A {@creature manticore} circles overhead looking for an easy meal. If it spots the characters, it swoops in to attack the most vulnerable member. It flies off towards the inner city if reduced to less than half its hit points. {@creature manticore||Manticores} in the Inner City may hunt in packs of 5 ({@dice 2d4}).|Menacing Manticore}"
+						],
+						[
+							"20-13",
+							"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
+						],
+						[
+							"24-27",
+							"{@footnote {@b Phase Webs}|Strange webs cover this section of the ruins and fill nearby buildings - some even span the streets themselves. 2 ({@dice 1d4}) {@creature phase spider||phase spiders} resting in the dark corners come to investigate any disturbance of their webs. The webs are especially thick in regions of the Inner City, where there are 7 ({@dice 2d6}) spiders instead.|Phase Webs}"
+						],
+						[
+							"28-31",
+							"{@footnote {@b Watching Gargoyles}|2 ({@dice 1d4}) {@creature wall gargoyle|DoDr|wall gargoyles} roaming overhead swoop down to attack. If encountered in the Inner City, there are 7 ({@dice 2d6}) instead.|Watching Gargoyles}"
+						],
+						[
+							"32-35",
+							"{@footnote {@b Ratling Scavengers}|10 ({@dice 3d6}) {@creature ratling|DoDr|ratlings} hide down a nearby alley or passage awaiting unsuspecting prey.|Ratling Scavengers}"
+						],
+						[
+							"36-39",
+							"{@footnote {@b Garmyr Hunters}|10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} leading {@dice 1d4} {@creature worg||worgs} are stalking the streets for fresh meat. They are on keen lookout and watch for any signs of movement. Double the number encountered in the Inner City.|Garmyr Hunters}"
+						],
+						[
+							"40-43",
+							"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements. Add {@dice 1d4} additional {@creature haze wight|DoDr|haze wights} when encountered in the Inner City.|Hateful Dead}"
+						],
+						[
+							"44-47",
+							"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}.|Gibbering Flesh}"
+						],
+						[
+							"48-51",
+							"{@footnote {@b Ghost Lights}|2 ({@dice 1d4}) {@creature will-o'-wisp||will-o'-wisps} attempt to lure passing characters towards a mirage of treasure or {@item delerium|DoDr} in the Haze. In the inner city, there are {@dice 2d6} wisps instead.|Ghost Lights}"
+						],
+						[
+							"52-55",
+							"{@footnote {@b Haze Haunt}|A {@creature warp witch|DoDr} moans and wails in the nearby building, scornfully mourning its miserable existence as it tries to remember its past. Add an additional {@dice 1d4} {@creature warp witch|DoDr|warp witches} when encountered in the Inner City|Haze Haunt}"
+						],
+						[
+							"56-59",
+							"{@footnote {@b Angry Furniture}|2 ({@dice 1d4}) {@creature mimic||mimics} are disguised as perfectly normal pieces of furniture in a nearby house.|Angry Furniture}"
+						],
+						[
+							"60-63",
+							"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
+						],
+						[
+							"64-67",
+							"{@footnote {@b Shambling Husks}|7 ({@dice 2d6}) {@creature haze husk|DoDr|haze husks} stumble and shuffle around the streets. In this unsettling gait, they play out scenes of their former everyday lives.|Shambling Husks}"
+						],
+						[
+							"68-71",
+							"{@footnote {@b Old Alchemist’s Shop}|A decrepit alchemist’s shop that reeks of a chemical odor stands on a street corner. A pool of spilled chemicals has become an aggressive {@creature ochre jelly}. In the Inner City, 2 ({@dice 1d4}) {@creature black pudding||black puddings} are encountered instead.|Old Alchemist’s Shop}"
+						],
+						[
+							"72-75",
+							"{@footnote {@b Hooded Lantern Patrol}|5 ({@dice 2d4}) {@creature scout||scouts} led by an {@creature urban ranger|DoDr} are on a recon mission. If the characters are in trouble they step in to help them, but then demand the characters turn over half of whatever plunder they’ve found in the ruins, citing their authority under the “law” of Westemär and that “scavenging” in the ruins is technically prohibited without the assent of the Lord Commander.|Hooded Lantern Patrol}"
+						],
+						[
+							"76-79",
+							"{@footnote {@b Queen’s Men Looters}|7 ({@dice 2d6}) {@creature bandit||bandits} led by a {@creature bandit captain} are hoping for easy pickings. The {@creature bandit||bandits} try to hide from the players until they appear wounded or in need of a rest, so canny characters might spot them before this happens.|Queen’s Men Looters}"
+						],
+						[
+							"80-83",
+							"{@footnote {@b Questing Knight}|A Silver Order {@creature knight} on a {@creature warhorse} with a retinue of 7 ({@dice 2d6}) {@creature guard||guards} are searching for lost relics and holy sites in the ruins.|Questing Knight}"
+						],
+						[
+							"84-87",
+							"{@footnote {@b Academy Surveyor}|An Amethyst Academy {@creature mage} and {@dice 1d4} {@creature hedge mage|DoDr} apprentices are conducting research in the ruins.|Academy Surveyor}"
+						],
+						[
+							"88-91",
+							"{@footnote {@b Pilgrims of the Falling Fire}|A group of 10 ({@dice 3d6}) {@creature cultist||cultists} led by a cult fanatic and a {@creature berserker} are heading towards the crater.|Pilgrims of the Falling Fire}"
+						],
+						[
+							"92-95",
+							"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
+						],
+						[
+							"96-99",
+							"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"name": "Inner City Encounters",
+					"source": "DoDr",
+					"page": 71,
+					"caption": "Inner City Encounters",
+					"colLabels": [
+						"d100",
+						"Encounter"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"00-02",
+							"{@footnote {@b Horribly Lost!}| The characters are badly turned around and become hopelessly lost in the ruins. They no longer know where they are anymore or what direction they are facing. They wander the city streets indefinitely, checking for random encounters as normal each hour. They don’t regain their bearings unless the circumstances of a random encounter lead them to clues or friendly NPCs who can help them.|Horribly Lost!}"
+						],
+						[
+							"03-04",
+							"{@footnote {@b Executioner’s Summons}|The characters stumble into Slaughterstone Square.(see {@creature Executioner|DoDr})|Executioner’s Summons}"
+						],
+						[
+							"05-06",
+							"{@footnote {@b Going in circles.}| The characters lose their position and get lost. They no longer know where they are anymore or what direction they are facing. They must wander the city streets for the next {@dice 1d4} hours, after which they regain their original position. Check for random encounters as normal each hour. A random encounter could result in circumstances where the characters no longer become lost.|Going in circles}"
+						],
+						[
+							"07-08",
+							"{@footnote {@b Lord of the Feast!}| The {@creature Lord of the Feast|DoDr} leads a warpack of 10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} and 5 ({@dice 2d4}) {@creature hell hound||hell hounds}.|Lord of the Feast!}"
+						],
+						[
+							"09-10",
+							"{@footnote {@b Uninvited Guests}| The characters arrive at the nearest city gate.|Uninvited Guests}"
+						],
+						[
+							"11-12",
+							"{@footnote {@b Crimson Countess}| The {@creature Crimson Countess|DoDr} hunts above with a retinue of 5 ({@dice 2d4}) {@creature harpy||harpies}.|Crimson Countess}"
+						],
+						[
+							"13-14",
+							"{@footnote {@b Wandered into the Garden}| The characters arrive at the nearest edge of Queen’s Park Garden.|Wandered into the Garden}"
+						],
+						[
+							"15-16",
+							"{@footnote {@b Sewer Monster}|An {@creature otyugh} feasting on offal lurks near a sewer access point.|Sewer Monster}"
+						],
+						[
+							"17-19",
+							"{@footnote {@b Stalking Vermin}|14 ({@dice 4d6}) {@creature ratling|DoDr|ratlings} and 5 ({@dice 2d4}) {@creature ratling guttersnipe|DoDr|ratling guttersnipes} have set up an ambush. These {@creature ratling|DoDr|ratlings} use bait to lure prey towards a dead-end street or sewer passage where the guttersnipes lurk on high ground to snipe their quarry with ranged attacks.|Stalking Vermin}"
+						],
+						[
+							"20-22",
+							"{@footnote {@b Ralting Raiders}| A ratling {@creature warlock of the rat god|DoDr} leads a great horde of 21 ({@dice 6d6}) {@creature ratling|DoDr|ratlings}.|Ratling Raiders}"
+						],
+						[
+							"23-25",
+							"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements. Add {@dice 1d4} additional {@creature haze wight|DoDr|haze wights} when encountered in the Inner City.|Hateful Dead}"
+						],
+						[
+							"26-29",
+							"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
+						],
+						[
+							"30-31",
+							"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
+						],
+						[
+							"32-35",
+							"{@footnote {@b Phase Webs}|Strange webs cover this section of the ruins and fill nearby buildings - some even span the streets themselves. 2 ({@dice 1d4}) {@creature phase spider||phase spiders} resting in the dark corners come to investigate any disturbance of their webs. The webs are especially thick in regions of the Inner City, where there are 7 ({@dice 2d6}) spiders instead.|Phase Webs}"
+						],
+						[
+							"34-36",
+							"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}.|Gibbering Flesh}"
+						],
+						[
+							"37-38",
+							"{@footnote {@b Old Alchemist’s Shop}|A decrepit alchemist’s shop that reeks of a chemical odor stands on a street corner. A pool of spilled chemicals has become an aggressive {@creature ochre jelly}. In the Inner City, 2 ({@dice 1d4}) {@creature black pudding||black puddings} are encountered instead.|Old Alchemist’s Shop}"
+						],
+						[
+							"39-40",
+							"{@footnote {@b Menacing Manticore}|A {@creature manticore} circles overhead looking for an easy meal. If it spots the characters, it swoops in to attack the most vulnerable member. It flies off towards the inner city if reduced to less than half its hit points. {@creature manticore||Manticores} in the Inner City may hunt in packs of 5 ({@dice 2d4}).|Menacing Manticore}"
+						],
+						[
+							"41-42",
+							"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
+						],
+						[
+							"43-44",
+							"{@footnote {@b Ghost Lights}|2 ({@dice 1d4}) {@creature will-o'-wisp||will-o'-wisps} attempt to lure passing characters towards a mirage of treasure or {@item delerium|DoDr} in the Haze. In the inner city, there are {@dice 2d6} wisps instead.|Ghost Lights}"
+						],
+						[
+							"45-46",
+							"{@footnote {@b Haze Haunt}|A {@creature warp witch|DoDr} moans and wails in the nearby building, scornfully mourning its miserable existence as it tries to remember its past. Add an additional {@dice 1d4} {@creature warp witch|DoDr|warp witches} when encountered in the Inner City|Haze Haunt}"
+						],
+						[
+							"47-49",
+							"{@footnote {@b Watching Gargoyles}|2 ({@dice 1d4}) {@creature wall gargoyle|DoDr|wall gargoyles} roaming overhead swoop down to attack. If encountered in the Inner City, there are 7 ({@dice 2d6}) instead.|Watching Gargoyles}"
+						],
+						[
+							"50-53",
+							"{@footnote {@b Garmyr Hunters}|10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} leading {@dice 1d4} {@creature worg||worgs} are stalking the streets for fresh meat. They are on keen lookout and watch for any signs of movement. Double the number encountered in the Inner City.|Garmyr Hunters}"
+						],
+						[
+							"54-56",
+							"{@footnote {@b Garmyr Ravagers}|7 ({@dice 2d6}) {@creature berserker||garmyr berserkers} with 2 ({@dice 1d4}) {@creature hell hound||hell hounds} are rampaging through the streets, howling loudly and starting fires.|Garmyr Ravagers}"
+						],
+						[
+							"57-58",
+							"{@footnote {@b Overgrown Ruin}|Strange alien plants and oddly-shaped vines creep up a crumbling ruin. A {@creature shambling mound} and 2 ({@dice 1d4}) {@creature hypnotic eldritch blossom|DoDr|hypnotic eldritch blossoms} grow in the tangled mass.|Overgrown Ruin}"
+						],
+						[
+							"59-61",
+							"{@footnote {@b Living Ruins}|Several inanimate parts of the ruins suddenly spring to life as 2 ({@dice 1d4}) {@filter delerium elementals|bestiary|search=contaminated elementals}. Choose whichever type is most appropriate for the area.|Living Ruins}"
+						],
+						[
+							"62-63",
+							"{@footnote {@b Chimera Nest}|A {@creature chimera} is nesting in a tall spire. Aggressive and territorial, it swoops down to rip apart any who wander around its turf.|Chimera Nest}"
+						],
+						[
+							"64-67",
+							"{@footnote {@b Harpy Flock}|A pack of 10 ({@dice 3d6}) {@creature harpy||harpies} flies overhead surveying the ground for anything worth hunting. They perch on rooftops and watch the streets below, trying to lure wandering characters up to the roofs to push them off to their deaths.|Harpy Flock}"
+						],
+						[
+							"68-69",
+							"{@footnote {@b Lurking Wraiths}|2 (1d4) {@creature arcane wraith|DoDr|arcane wraiths} flutter about seeking erratic magic, and fixate on whichever character is carrying the most {@item delerium|DoDr} or magic items.|Lurking Wraiths}"
+						],
+						[
+							"70-71",
+							"{@footnote {@b Fallen Heroes}|5 ({@dice 2d4}) {@creature haze wight|DoDr|haze wights} are all that remains of this former adventuring party. They believe any living humanoids they encounter are mutated monsters.|Fallen Heroes}"
+						],
+						[
+							"72-73",
+							"{@footnote {@b Gloaming Ray}|A {@creature cloaker} flies through the dark rooftops above looking for prey.|Gloaming Ray}"
+						],
+						[
+							"74-76",
+							"{@footnote {@b Deep ones}|10 ({@dice 3d6}) aquatic {@creature delerium dreg|DoDr|delerium dregs} and 1 {@creature chuul} occupy a sewer junction or are emerging from a sewer exit.|Deep ones}"
+						],
+						[
+							"77-80",
+							"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
+						],
+						[
+							"81-83",
+							"{@footnote {@b Pilgrims of the Falling Fire}|A group of 10 ({@dice 3d6}) {@creature cultist||cultists} led by a cult fanatic and a {@creature berserker} are heading towards the crater.|Pilgrims of the Falling Fire}"
+						],
+						[
+							"84-87",
+							"{@footnote {@b Hooded Lantern Patrol}|5 ({@dice 2d4}) {@creature scout||scouts} led by an {@creature urban ranger|DoDr} are on a recon mission. If the characters are in trouble they step in to help them, but then demand the characters turn over half of whatever plunder they’ve found in the ruins, citing their authority under the “law” of Westemär and that “scavenging” in the ruins is technically prohibited without the assent of the Lord Commander.|Hooded Lantern Patrol}"
+						],
+						[
+							"88-91",
+							"{@footnote {@b Queen’s Men Looters}|7 ({@dice 2d6}) {@creature bandit||bandits} led by a {@creature bandit captain} are hoping for easy pickings. The {@creature bandit||bandits} try to hide from the players until they appear wounded or in need of a rest, so canny characters might spot them before this happens.|Queen’s Men Looters}"
+						],
+						[
+							"92-93",
+							"{@footnote {@b Questing Knight}|A Silver Order {@creature knight} on a {@creature warhorse} with a retinue of 7 ({@dice 2d6}) {@creature guard||guards} are searching for lost relics and holy sites in the ruins.|Questing Knight}"
+						],
+						[
+							"94-95",
+							"{@footnote {@b Academy Surveyor}|An Amethyst Academy {@creature mage} and {@dice 1d4} {@creature hedge mage|DoDr} apprentices are conducting research in the ruins.|Academy Surveyor}"
+						],
+						[
+							"96-99",
+							"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
 						]
 					]
 				}
@@ -2530,7 +2936,7 @@
 			}
 		},
 		{
-			"name": "Ratlings",
+			"name": "Ratling",
 			"group": [
 				"Monsters of Drakkenheim"
 			],
@@ -2599,13 +3005,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The ratlings has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"The ratling has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The ratlings has advantage on an attack roll against a creature if at least one of the ratlings's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The ratling has advantage on an attack roll against a creature if at least one of the ratling's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 					]
 				}
 			],
@@ -2652,7 +3058,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later. ",
+					"Ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later. ",
 					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
 					{
 						"type": "entries",
@@ -5039,179 +5445,179 @@
 			}
 		},
 		{
-	"name": "Rat Prince",
-	"group": [
-		"Monsters of Drakkenheim"
-	],
-	"isNamedCreature": true,
-	"source": "DoDr",
-	"page": 202,
-	"size": "S",
-	"type": "monstrosity",
-	"alignment": [
-		"A"
-	],
-	"ac": [
-		{
-			"ac": 15,
-			"from": [
-				"{@item leather armor|phb}"
-			]
-		}
-	],
-	"hp": {
-		"formula": "12d8 + 12",
-		"average": 66
-	},
-	"speed": {
-		"walk": 30,
-		"climb": 30,
-		"swim": 30
-	},
-	"str": 12,
-	"dex": 19,
-	"con": 13,
-	"int": 9,
-	"wis": 15,
-	"cha": 9,
-	"skill": {
-		"perception": "+6",
-		"stealth": "+8",
-		"acrobatics": "+6",
-		"athletics": "+3"
-	},
-	"passive": 16,
-	"languages": [
-		"Common"
-	],
-	"cr": "3",
-	"trait": [
-		{
-			"name": "Keen Smell",
-			"entries": [
-				"The Rat Prince has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
-			]
-		},
-		{
-			"name": "Pack Tactics",
-			"entries": [
-				"The Rat Prince has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-			]
-		},
-		{
-			"name": "Fully Contaminated",
-			"entries": [
-				"This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells."
-			]
-		},
-		{
-			"name": "Haze Adaptation",
-			"entries": [
-				"This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog."
-			]
-		},
-		{
-			"name": "Haze Dependence",
-			"entries": [
-				"This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze."
-			]
-		},
-		{
-			"name": "Contaminated Ammunition",
-			"entries": [
-				"The Rat Prince carries {@dice 2d6} pieces of ammunition laced with {@item delerium|DoDr} fragments. These projectiles cause {@damage 1d6} extra damage on a hit, and the target must succeed on a {@dc 10} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
-			]
-		}
-	],
-	"action": [
-		{
-			"name": "Multiattack",
-			"entries": [
-				"The Rat Prince makes three attacks: two with his short swords, and one with his contaminated bite."
-			]
-		},
-		{
-			"name": "Shortsword",
-			"entries": [
-				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
-			]
-		},
-		{
-			"name": "Hand Crossbow",
-			"entries": [
-				"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
-			]
-		},
-		{
-			"name": "Contaminated Bite",
-			"entries": [
-				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage, plus an extra 10 ({@damage 3d6}) necrotic damage, and the creature must succeed on a {@dc 11} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
-			]
-		},
-		{
-			"name": "Delerium Healing",
-			"entries": [
-				"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
-			]
-		}
-	],
-	"bonus": [
-		{
-			"name": "Cunning Action",
-			"entries": [
-				"The Rat Prince takes the Dash, Disengage, or Hide action."
-			]
-		}
-	],
-	"traitTags": [
-		"Keen Senses",
-		"Pack Tactics"
-	],
-	"actionTags": [
-		"Multiattack"
-	],
-	"languageTags": [
-		"C"
-	],
-	"damageTags": [
-		"P",
-		"N"
-	],
-	"miscTags": [
-		"MW",
-		"RW",
-		"RNG"
-	],
-	"hasFluff": true,
-	"senses": [
-		"darkvision 60 ft."
-	],
-	"senseTags": [
-		"D"
-	],
-	"fluff": {
-		"entries": [
-			"Ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. Ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later.",
-			"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
-			"This ratling stands head-and-shoulders over the others, and has black-brown fur and a wicked grin - some of his frontmost teeth are {@item delerium|DoDr} crystals. He wears scavenged bits of light armour, tattered dark blue rags, and a gold crown which is slightly too small for his head.",
-			{
-				"type": "entries",
-				"name": "Monsters of Drakkenheim",
+			"name": "Rat Prince",
+			"group": [
+				"Monsters of Drakkenheim"
+			],
+			"isNamedCreature": true,
+			"source": "DoDr",
+			"page": 202,
+			"size": "S",
+			"type": "monstrosity",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 12",
+				"average": 66
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"swim": 30
+			},
+			"str": 12,
+			"dex": 19,
+			"con": 13,
+			"int": 9,
+			"wis": 15,
+			"cha": 9,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+8",
+				"acrobatics": "+6",
+				"athletics": "+3"
+			},
+			"passive": 16,
+			"languages": [
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The Rat Prince has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The Rat Prince has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Fully Contaminated",
+					"entries": [
+						"This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells."
+					]
+				},
+				{
+					"name": "Haze Adaptation",
+					"entries": [
+						"This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog."
+					]
+				},
+				{
+					"name": "Haze Dependence",
+					"entries": [
+						"This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze."
+					]
+				},
+				{
+					"name": "Contaminated Ammunition",
+					"entries": [
+						"The Rat Prince carries {@dice 2d6} pieces of ammunition laced with {@item delerium|DoDr} fragments. These projectiles cause {@damage 1d6} extra damage on a hit, and the target must succeed on a {@dc 10} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Rat Prince makes three attacks: two with his short swords, and one with his contaminated bite."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Contaminated Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage, plus an extra 10 ({@damage 3d6}) necrotic damage, and the creature must succeed on a {@dc 11} Constitution saving throw or gain one level of {@condition contamination|DoDr}."
+					]
+				},
+				{
+					"name": "Delerium Healing",
+					"entries": [
+						"As an action, a monster can touch a {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"The Rat Prince takes the Dash, Disengage, or Hide action."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"N"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"hasFluff": true,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"fluff": {
 				"entries": [
-					"All non-humanoid creatures encountered in Drakkenheim possess the following traits. These do not change the monsters’ challenge ratings :",
-					"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
-					"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
-					"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
-					"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
+					"Ratlings are oversized mutated rats imbued with malevolent cunning and driven by a mad compulsion to consume and multiply. These wretched monsters suffer from a constant internal struggle between cowardly survival instincts and violent impulsive urges. Ratlings dream of eating everything, and will eat anything, but love eating people. They especially love eating babies. While they will subsist on carrion, ratlings take captives back to their lairs so they can have fresh food later.",
+					"Thousands of ratlings dwell in the city. They form warring colonies that dig maze-like burrows featuring multiple entrances and tight looping passages. Successful colonies grow in number quickly, as ratlings mature in a matter of weeks when ample food and {@item delerium|DoDr} are available.",
+					"This ratling stands head-and-shoulders over the others, and has black-brown fur and a wicked grin - some of his frontmost teeth are {@item delerium|DoDr} crystals. He wears scavenged bits of light armour, tattered dark blue rags, and a gold crown which is slightly too small for his head.",
+					{
+						"type": "entries",
+						"name": "Monsters of Drakkenheim",
+						"entries": [
+							"All non-humanoid creatures encountered in Drakkenheim possess the following traits. These do not change the monsters’ challenge ratings :",
+							"{@b Fully Contaminated}. This creature is immune to {@condition contamination|DoDr}, and has advantage on saving throws against contaminated spells.",
+							"{@b Haze Adaptation}. This creature may benefit from a long rest finished within the Haze. It can see twice as far through the haze mists and Deep Haze fog.",
+							"{@b Haze Dependence}. This creature gains one level of {@condition exhaustion} for every twenty four hours it spends outside the Haze. These {@condition exhaustion} levels cannot be removed while the creature is outside the Haze.",
+							"{@b Delerium Healing}. As an action, a monster can touch a  {@item delerium|DoDr} shard to regain 10 ({@dice 3d6}) hit points. Once a monster has used a  {@item delerium|DoDr} shard in this way, the shard can’t be used in this manner again for twenty four hours."
+						]
+					}
 				]
-			}
-		]
-	},
-	"conditionInflict": [
-		"contamination|DoDr",
-		"exhaustion"
-	]
-}
+			},
+			"conditionInflict": [
+				"contamination|DoDr",
+				"exhaustion"
+			]
+		}
 	],
 	"legendaryGroup": [
 		{
@@ -6365,13 +6771,13 @@
 				"This spell may only be cast in an area covered by the Deep Haze.",
 				"You perform a holy ceremony involving up to 12 faithful and willing humanoid creatures that ends when each participating creature drives a {@item delerium|DoDr} fragment into their chest. Those creatures become sanctified :",
 				{
-					"type":"inset",
+					"type": "inset",
 					"name": "Sanctified",
-					"entries":[
+					"entries": [
 						"A character who participates in the Sacrament of the Falling Fire gains the following traits, so long as they adhere to the tenets and faith of the Falling Fire:",
 						{
 							"type": "list",
-							"items":[
+							"items": [
 								"You gain advantage on saving throws against being {@condition charmed} or {@condition frightened}, and resistance to necrotic and radiant damage. You are immune to {@condition contamination|DoDr}.",
 								"If you die, your soul enters the {@item delerium|DoDr} fragment embedded into your chest. You can’t be raised from the dead while your soul is in the fragment"
 							]
