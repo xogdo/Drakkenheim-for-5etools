@@ -4973,7 +4973,8 @@
 			"type": "monstrosity",
 			"source": "DoDr",
 			"alignment": [
-				"CE"
+				"C",
+				"E"
 			],
 			"ac": [
 				{
