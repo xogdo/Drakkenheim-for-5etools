@@ -370,7 +370,7 @@
 			]
 		},
 		{
-			"name": "Random Encounters in Drakkenheim",
+			"name": "Encounters in Drakkenheim",
 			"source": "DoDr",
 			"page": 69,
 			"type": "section",
@@ -391,386 +391,593 @@
 				"{@b If every player rolls a one.} What’s the worst that can happen? It happens! ",
 				"Finally, you can adjust the die size rolled when players check for random encounters, such as using a {@dice 1d10} or even {@dice 1d6}. The odds of a random encounter happening increase with lower die sizes, so this is ideal if you have a smaller group or want the characters to face more random encounters.",
 				{
-					"type": "table",
-					"name": "Sewer Encounters",
-					"source": "DoDr",
-					"page": 71,
-					"caption": "Sewer Encounters",
-					"colLabels": [
-						"d20",
-						"Encounter"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"1",
-							"{@footnote {@b Horribly Lost!}| The characters are badly turned around and become hopelessly lost in the ruins. They no longer know where they are anymore or what direction they are facing. They wander the city streets indefinitely, checking for random encounters as normal each hour. They don’t regain their bearings unless the circumstances of a random encounter lead them to clues or friendly NPCs who can help them.|Horribly Lost!}"
-						],
-						[
-							"2",
-							"{@footnote {@b Going in circles.}| The characters lose their position and get lost. They no longer know where they are anymore or what direction they are facing. They must wander the city streets for the next {@dice 1d4} hours, after which they regain their original position. Check for random encounters as normal each hour. A random encounter could result in circumstances where the characters no longer become lost.|Going in circles}"
-						],
-						[
-							"3",
-							"{@footnote {@b Wrong Turn}|The characters find themselves back where they started an hour ago. I guess you took a wrong turn somewhere?|Wrong Turn}"
-						],
-						[
-							"4",
-							"{@footnote {@b Gloaming Ray}|A {@creature cloaker} flies through the dark rooftops above looking for prey.|Gloaming Ray}"
-						],
-						[
-							"5",
-							"{@footnote {@b Living Ruins}|Several inanimate parts of the ruins suddenly spring to life as 2 ({@dice 1d4}) {@filter delerium elementals|bestiary|search=contaminated elementals}. Choose whichever type is most appropriate for the area.|Living Ruins}"
-						],
-						[
-							"6",
-							"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
-						],
-						[
-							"7",
-							"{@footnote {@b Sewer Monster}|An {@creature otyugh} feasting on offal lurks near a sewer access point.|Sewer Monster}"
-						],
-						[
-							"8",
-							"{@footnote {@b Drowned Dead}|A one-hundred-foot long corridor in the sewers is completely flooded. The tunnel has 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks} floating in it that appear lifeless unless attacked or until characters are halfway down the tunnel. The undead attempt to hold characters in place until they drown.|Drowned Dead}"
-						],
-						[
-							"9",
-							"{@footnote {@b Ratling Scavengers}|10 ({@dice 3d6}) {@creature ratling|DoDr|ratlings} hide down a nearby alley or passage awaiting unsuspecting prey.|Ratling Scavengers}"
-						],
-						[
-							"10",
-							"{@footnote {@b Stalking Vermin}|14 ({@dice 4d6}) {@creature ratling|DoDr|ratlings} and 5 ({@dice 2d4}) {@creature ratling guttersnipe|DoDr|ratling guttersnipes} have set up an ambush. These {@creature ratling|DoDr|ratlings} use bait to lure prey towards a dead-end street or sewer passage where the guttersnipes lurk on high ground to snipe their quarry with ranged attacks.|Stalking Vermin}"
-						],
-						[
-							"11",
-							"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements|Hateful Dead}"
-						],
-						[
-							"12",
-							"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
-						],
-						[
-							"13",
-							"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}|Gibbering Flesh}"
-						],
-						[
-							"14",
-							"{@footnote {@b Dozing Hulk}|A single {@creature haze hulk|DoDr} lays sleeping across the narrow road. Squeezing past without waking it may prove difficult, but it clutches a {@item delerium|DoDr} shard in its hand.|Dozing Hulk}"
-						],
-						[
-							"15",
-							"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
-						],
-						[
-							"16",
-							"{@footnote {@b Fallen Heroes}|5 ({@dice 2d4}) {@creature haze wight|DoDr|haze wights} are all that remains of this former adventuring party. They believe any living humanoids they encounter are mutated monsters.|Fallen Heroes}"
-						],
-						[
-							"17",
-							"{@footnote {@b Cleaning Cube}|A {@creature gelatinous cube} awaits down a narrow corridor in the sewers. It stays completely still until a creature enters its space.|Cleaning Cube}"
-						],
-						[
-							"18",
-							"{@footnote {@b Deep ones}|10 ({@dice 3d6}) aquatic {@creature delerium dreg|DoDr|delerium dregs} and 1 {@creature chuul} occupy a sewer junction or are emerging from a sewer exit.|Deep ones}"
-						],
-						[
-							"19",
-							"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
-						],
-						[
-							"20",
-							"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
-						]
+					"type": "entries",
+					"name": "Random Encounter Tables",
+					"entries": [
+						{
+							"type": "table",
+							"name": "Sewer Encounters",
+							"source": "DoDr",
+							"page": 71,
+							"caption": "Sewer Encounters",
+							"colLabels": [
+								"d20",
+								"Encounter"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@footnote {@b Horribly Lost!}| The characters are badly turned around and become hopelessly lost in the ruins. They no longer know where they are anymore or what direction they are facing. They wander the city streets indefinitely, checking for random encounters as normal each hour. They don’t regain their bearings unless the circumstances of a random encounter lead them to clues or friendly NPCs who can help them.|Horribly Lost!}"
+								],
+								[
+									"2",
+									"{@footnote {@b Going in circles.}| The characters lose their position and get lost. They no longer know where they are anymore or what direction they are facing. They must wander the city streets for the next {@dice 1d4} hours, after which they regain their original position. Check for random encounters as normal each hour. A random encounter could result in circumstances where the characters no longer become lost.|Going in circles}"
+								],
+								[
+									"3",
+									"{@footnote {@b Wrong Turn}|The characters find themselves back where they started an hour ago. I guess you took a wrong turn somewhere?|Wrong Turn}"
+								],
+								[
+									"4",
+									"{@footnote {@b Gloaming Ray}|A {@creature cloaker} flies through the dark rooftops above looking for prey.|Gloaming Ray}"
+								],
+								[
+									"5",
+									"{@footnote {@b Living Ruins}|Several inanimate parts of the ruins suddenly spring to life as 2 ({@dice 1d4}) {@filter delerium elementals|bestiary|search=contaminated elementals}. Choose whichever type is most appropriate for the area.|Living Ruins}"
+								],
+								[
+									"6",
+									"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
+								],
+								[
+									"7",
+									"{@footnote {@b Sewer Monster}|An {@creature otyugh} feasting on offal lurks near a sewer access point.|Sewer Monster}"
+								],
+								[
+									"8",
+									"{@footnote {@b Drowned Dead}|A one-hundred-foot long corridor in the sewers is completely flooded. The tunnel has 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks} floating in it that appear lifeless unless attacked or until characters are halfway down the tunnel. The undead attempt to hold characters in place until they drown.|Drowned Dead}"
+								],
+								[
+									"9",
+									"{@footnote {@b Ratling Scavengers}|10 ({@dice 3d6}) {@creature ratling|DoDr|ratlings} hide down a nearby alley or passage awaiting unsuspecting prey.|Ratling Scavengers}"
+								],
+								[
+									"10",
+									"{@footnote {@b Stalking Vermin}|14 ({@dice 4d6}) {@creature ratling|DoDr|ratlings} and 5 ({@dice 2d4}) {@creature ratling guttersnipe|DoDr|ratling guttersnipes} have set up an ambush. These {@creature ratling|DoDr|ratlings} use bait to lure prey towards a dead-end street or sewer passage where the guttersnipes lurk on high ground to snipe their quarry with ranged attacks.|Stalking Vermin}"
+								],
+								[
+									"11",
+									"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements|Hateful Dead}"
+								],
+								[
+									"12",
+									"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
+								],
+								[
+									"13",
+									"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}|Gibbering Flesh}"
+								],
+								[
+									"14",
+									"{@footnote {@b Dozing Hulk}|A single {@creature haze hulk|DoDr} lays sleeping across the narrow road. Squeezing past without waking it may prove difficult, but it clutches a {@item delerium|DoDr} shard in its hand.|Dozing Hulk}"
+								],
+								[
+									"15",
+									"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
+								],
+								[
+									"16",
+									"{@footnote {@b Fallen Heroes}|5 ({@dice 2d4}) {@creature haze wight|DoDr|haze wights} are all that remains of this former adventuring party. They believe any living humanoids they encounter are mutated monsters.|Fallen Heroes}"
+								],
+								[
+									"17",
+									"{@footnote {@b Cleaning Cube}|A {@creature gelatinous cube} awaits down a narrow corridor in the sewers. It stays completely still until a creature enters its space.|Cleaning Cube}"
+								],
+								[
+									"18",
+									"{@footnote {@b Deep ones}|10 ({@dice 3d6}) aquatic {@creature delerium dreg|DoDr|delerium dregs} and 1 {@creature chuul} occupy a sewer junction or are emerging from a sewer exit.|Deep ones}"
+								],
+								[
+									"19",
+									"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
+								],
+								[
+									"20",
+									"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"name": "Outer City Encounters",
+							"source": "DoDr",
+							"page": 71,
+							"caption": "Outer City Encounters",
+							"colLabels": [
+								"d100",
+								"Encounter"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"01-04",
+									"{@footnote {@b Run out of Town}|Characters get turned around badly, and arrive at the nearest edge of town.|Run out of Town}"
+								],
+								[
+									"05-08",
+									"{@footnote {@b Uninvited Guests}|The characters arrive at the nearest city gate.|Uninvited Guests}"
+								],
+								[
+									"09-12",
+									"{@footnote {@b Wrong Turn}|The characters find themselves back where they started an hour ago. I guess you took a wrong turn somewhere?|Wrong Turn}"
+								],
+								[
+									"13-16",
+									"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
+								],
+								[
+									"17-20",
+									"{@footnote {@b Menacing Manticore}|A {@creature manticore} circles overhead looking for an easy meal. If it spots the characters, it swoops in to attack the most vulnerable member. It flies off towards the inner city if reduced to less than half its hit points. {@creature manticore||Manticores} in the Inner City may hunt in packs of 5 ({@dice 2d4}).|Menacing Manticore}"
+								],
+								[
+									"21-24",
+									"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
+								],
+								[
+									"25-28",
+									"{@footnote {@b Phase Webs}|Strange webs cover this section of the ruins and fill nearby buildings - some even span the streets themselves. 2 ({@dice 1d4}) {@creature phase spider||phase spiders} resting in the dark corners come to investigate any disturbance of their webs. The webs are especially thick in regions of the Inner City, where there are 7 ({@dice 2d6}) spiders instead.|Phase Webs}"
+								],
+								[
+									"29-32",
+									"{@footnote {@b Watching Gargoyles}|2 ({@dice 1d4}) {@creature wall gargoyle|DoDr|wall gargoyles} roaming overhead swoop down to attack. If encountered in the Inner City, there are 7 ({@dice 2d6}) instead.|Watching Gargoyles}"
+								],
+								[
+									"33-36",
+									"{@footnote {@b Ratling Scavengers}|10 ({@dice 3d6}) {@creature ratling|DoDr|ratlings} hide down a nearby alley or passage awaiting unsuspecting prey.|Ratling Scavengers}"
+								],
+								[
+									"37-40",
+									"{@footnote {@b Garmyr Hunters}|10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} leading {@dice 1d4} {@creature worg||worgs} are stalking the streets for fresh meat. They are on keen lookout and watch for any signs of movement. Double the number encountered in the Inner City.|Garmyr Hunters}"
+								],
+								[
+									"41-44",
+									"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements. Add {@dice 1d4} additional {@creature haze wight|DoDr|haze wights} when encountered in the Inner City.|Hateful Dead}"
+								],
+								[
+									"45-48",
+									"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}.|Gibbering Flesh}"
+								],
+								[
+									"49-52",
+									"{@footnote {@b Ghost Lights}|2 ({@dice 1d4}) {@creature will-o'-wisp||will-o'-wisps} attempt to lure passing characters towards a mirage of treasure or {@item delerium|DoDr} in the Haze. In the inner city, there are {@dice 2d6} wisps instead.|Ghost Lights}"
+								],
+								[
+									"53-56",
+									"{@footnote {@b Haze Haunt}|A {@creature warp witch|DoDr} moans and wails in the nearby building, scornfully mourning its miserable existence as it tries to remember its past. Add an additional {@dice 1d4} {@creature warp witch|DoDr|warp witches} when encountered in the Inner City|Haze Haunt}"
+								],
+								[
+									"57-60",
+									"{@footnote {@b Angry Furniture}|2 ({@dice 1d4}) {@creature mimic||mimics} are disguised as perfectly normal pieces of furniture in a nearby house.|Angry Furniture}"
+								],
+								[
+									"61-64",
+									"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
+								],
+								[
+									"65-68",
+									"{@footnote {@b Shambling Husks}|7 ({@dice 2d6}) {@creature haze husk|DoDr|haze husks} stumble and shuffle around the streets. In this unsettling gait, they play out scenes of their former everyday lives.|Shambling Husks}"
+								],
+								[
+									"69-72",
+									"{@footnote {@b Old Alchemist’s Shop}|A decrepit alchemist’s shop that reeks of a chemical odor stands on a street corner. A pool of spilled chemicals has become an aggressive {@creature ochre jelly}. In the Inner City, 2 ({@dice 1d4}) {@creature black pudding||black puddings} are encountered instead.|Old Alchemist’s Shop}"
+								],
+								[
+									"73-76",
+									"{@footnote {@b Hooded Lantern Patrol}|5 ({@dice 2d4}) {@creature scout||scouts} led by an {@creature urban ranger|DoDr} are on a recon mission. If the characters are in trouble they step in to help them, but then demand the characters turn over half of whatever plunder they’ve found in the ruins, citing their authority under the “law” of Westemär and that “scavenging” in the ruins is technically prohibited without the assent of the Lord Commander.|Hooded Lantern Patrol}"
+								],
+								[
+									"77-80",
+									"{@footnote {@b Queen’s Men Looters}|7 ({@dice 2d6}) {@creature bandit||bandits} led by a {@creature bandit captain} are hoping for easy pickings. The {@creature bandit||bandits} try to hide from the players until they appear wounded or in need of a rest, so canny characters might spot them before this happens.|Queen’s Men Looters}"
+								],
+								[
+									"81-84",
+									"{@footnote {@b Questing Knight}|A Silver Order {@creature knight} on a {@creature warhorse} with a retinue of 7 ({@dice 2d6}) {@creature guard||guards} are searching for lost relics and holy sites in the ruins.|Questing Knight}"
+								],
+								[
+									"85-88",
+									"{@footnote {@b Academy Surveyor}|An Amethyst Academy {@creature mage} and {@dice 1d4} {@creature hedge mage|DoDr} apprentices are conducting research in the ruins.|Academy Surveyor}"
+								],
+								[
+									"89-92",
+									"{@footnote {@b Pilgrims of the Falling Fire}|A group of 10 ({@dice 3d6}) {@creature cultist||cultists} led by a cult fanatic and a {@creature berserker} are heading towards the crater.|Pilgrims of the Falling Fire}"
+								],
+								[
+									"93-96",
+									"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
+								],
+								[
+									"97-00",
+									"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"name": "Inner City Encounters",
+							"source": "DoDr",
+							"page": 71,
+							"caption": "Inner City Encounters",
+							"colLabels": [
+								"d100",
+								"Encounter"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"01-03",
+									"{@footnote {@b Horribly Lost!}| The characters are badly turned around and become hopelessly lost in the ruins. They no longer know where they are anymore or what direction they are facing. They wander the city streets indefinitely, checking for random encounters as normal each hour. They don’t regain their bearings unless the circumstances of a random encounter lead them to clues or friendly NPCs who can help them.|Horribly Lost!}"
+								],
+								[
+									"04-05",
+									"{@footnote {@b Executioner’s Summons}|The characters stumble into Slaughterstone Square.(see {@creature Executioner|DoDr})|Executioner’s Summons}"
+								],
+								[
+									"06-07",
+									"{@footnote {@b Going in circles.}| The characters lose their position and get lost. They no longer know where they are anymore or what direction they are facing. They must wander the city streets for the next {@dice 1d4} hours, after which they regain their original position. Check for random encounters as normal each hour. A random encounter could result in circumstances where the characters no longer become lost.|Going in circles}"
+								],
+								[
+									"08-09",
+									"{@footnote {@b Lord of the Feast!}| The {@creature Lord of the Feast|DoDr} leads a warpack of 10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} and 5 ({@dice 2d4}) {@creature hell hound||hell hounds}.|Lord of the Feast!}"
+								],
+								[
+									"10-11",
+									"{@footnote {@b Uninvited Guests}| The characters arrive at the nearest city gate.|Uninvited Guests}"
+								],
+								[
+									"12-13",
+									"{@footnote {@b Crimson Countess}| The {@creature Crimson Countess|DoDr} hunts above with a retinue of 5 ({@dice 2d4}) {@creature harpy||harpies}.|Crimson Countess}"
+								],
+								[
+									"14-15",
+									"{@footnote {@b Wandered into the Garden}| The characters arrive at the nearest edge of Queen’s Park Garden.|Wandered into the Garden}"
+								],
+								[
+									"16-17",
+									"{@footnote {@b Sewer Monster}|An {@creature otyugh} feasting on offal lurks near a sewer access point.|Sewer Monster}"
+								],
+								[
+									"18-20",
+									"{@footnote {@b Stalking Vermin}|14 ({@dice 4d6}) {@creature ratling|DoDr|ratlings} and 5 ({@dice 2d4}) {@creature ratling guttersnipe|DoDr|ratling guttersnipes} have set up an ambush. These {@creature ratling|DoDr|ratlings} use bait to lure prey towards a dead-end street or sewer passage where the guttersnipes lurk on high ground to snipe their quarry with ranged attacks.|Stalking Vermin}"
+								],
+								[
+									"21-23",
+									"{@footnote {@b Ralting Raiders}| A ratling {@creature warlock of the rat god|DoDr} leads a great horde of 21 ({@dice 6d6}) {@creature ratling|DoDr|ratlings}.|Ratling Raiders}"
+								],
+								[
+									"24-26",
+									"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements. Add {@dice 1d4} additional {@creature haze wight|DoDr|haze wights} when encountered in the Inner City.|Hateful Dead}"
+								],
+								[
+									"27-30",
+									"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
+								],
+								[
+									"31-32",
+									"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
+								],
+								[
+									"33-34",
+									"{@footnote {@b Phase Webs}|Strange webs cover this section of the ruins and fill nearby buildings - some even span the streets themselves. 2 ({@dice 1d4}) {@creature phase spider||phase spiders} resting in the dark corners come to investigate any disturbance of their webs. The webs are especially thick in regions of the Inner City, where there are 7 ({@dice 2d6}) spiders instead.|Phase Webs}"
+								],
+								[
+									"35-37",
+									"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}.|Gibbering Flesh}"
+								],
+								[
+									"38-39",
+									"{@footnote {@b Old Alchemist’s Shop}|A decrepit alchemist’s shop that reeks of a chemical odor stands on a street corner. A pool of spilled chemicals has become an aggressive {@creature ochre jelly}. In the Inner City, 2 ({@dice 1d4}) {@creature black pudding||black puddings} are encountered instead.|Old Alchemist’s Shop}"
+								],
+								[
+									"40-41",
+									"{@footnote {@b Menacing Manticore}|A {@creature manticore} circles overhead looking for an easy meal. If it spots the characters, it swoops in to attack the most vulnerable member. It flies off towards the inner city if reduced to less than half its hit points. {@creature manticore||Manticores} in the Inner City may hunt in packs of 5 ({@dice 2d4}).|Menacing Manticore}"
+								],
+								[
+									"42-43",
+									"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
+								],
+								[
+									"44-45",
+									"{@footnote {@b Ghost Lights}|2 ({@dice 1d4}) {@creature will-o'-wisp||will-o'-wisps} attempt to lure passing characters towards a mirage of treasure or {@item delerium|DoDr} in the Haze. In the inner city, there are {@dice 2d6} wisps instead.|Ghost Lights}"
+								],
+								[
+									"46-47",
+									"{@footnote {@b Haze Haunt}|A {@creature warp witch|DoDr} moans and wails in the nearby building, scornfully mourning its miserable existence as it tries to remember its past. Add an additional {@dice 1d4} {@creature warp witch|DoDr|warp witches} when encountered in the Inner City|Haze Haunt}"
+								],
+								[
+									"48-50",
+									"{@footnote {@b Watching Gargoyles}|2 ({@dice 1d4}) {@creature wall gargoyle|DoDr|wall gargoyles} roaming overhead swoop down to attack. If encountered in the Inner City, there are 7 ({@dice 2d6}) instead.|Watching Gargoyles}"
+								],
+								[
+									"51-54",
+									"{@footnote {@b Garmyr Hunters}|10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} leading {@dice 1d4} {@creature worg||worgs} are stalking the streets for fresh meat. They are on keen lookout and watch for any signs of movement. Double the number encountered in the Inner City.|Garmyr Hunters}"
+								],
+								[
+									"55-57",
+									"{@footnote {@b Garmyr Ravagers}|7 ({@dice 2d6}) {@creature berserker||garmyr berserkers} with 2 ({@dice 1d4}) {@creature hell hound||hell hounds} are rampaging through the streets, howling loudly and starting fires.|Garmyr Ravagers}"
+								],
+								[
+									"58-59",
+									"{@footnote {@b Overgrown Ruin}|Strange alien plants and oddly-shaped vines creep up a crumbling ruin. A {@creature shambling mound} and 2 ({@dice 1d4}) {@creature hypnotic eldritch blossom|DoDr|hypnotic eldritch blossoms} grow in the tangled mass.|Overgrown Ruin}"
+								],
+								[
+									"60-62",
+									"{@footnote {@b Living Ruins}|Several inanimate parts of the ruins suddenly spring to life as 2 ({@dice 1d4}) {@filter delerium elementals|bestiary|search=contaminated elementals}. Choose whichever type is most appropriate for the area.|Living Ruins}"
+								],
+								[
+									"63-64",
+									"{@footnote {@b Chimera Nest}|A {@creature chimera} is nesting in a tall spire. Aggressive and territorial, it swoops down to rip apart any who wander around its turf.|Chimera Nest}"
+								],
+								[
+									"65-68",
+									"{@footnote {@b Harpy Flock}|A pack of 10 ({@dice 3d6}) {@creature harpy||harpies} flies overhead surveying the ground for anything worth hunting. They perch on rooftops and watch the streets below, trying to lure wandering characters up to the roofs to push them off to their deaths.|Harpy Flock}"
+								],
+								[
+									"69-70",
+									"{@footnote {@b Lurking Wraiths}|2 (1d4) {@creature arcane wraith|DoDr|arcane wraiths} flutter about seeking erratic magic, and fixate on whichever character is carrying the most {@item delerium|DoDr} or magic items.|Lurking Wraiths}"
+								],
+								[
+									"71-72",
+									"{@footnote {@b Fallen Heroes}|5 ({@dice 2d4}) {@creature haze wight|DoDr|haze wights} are all that remains of this former adventuring party. They believe any living humanoids they encounter are mutated monsters.|Fallen Heroes}"
+								],
+								[
+									"73-74",
+									"{@footnote {@b Gloaming Ray}|A {@creature cloaker} flies through the dark rooftops above looking for prey.|Gloaming Ray}"
+								],
+								[
+									"75-77",
+									"{@footnote {@b Deep ones}|10 ({@dice 3d6}) aquatic {@creature delerium dreg|DoDr|delerium dregs} and 1 {@creature chuul} occupy a sewer junction or are emerging from a sewer exit.|Deep ones}"
+								],
+								[
+									"78-81",
+									"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
+								],
+								[
+									"82-84",
+									"{@footnote {@b Pilgrims of the Falling Fire}|A group of 10 ({@dice 3d6}) {@creature cultist||cultists} led by a cult fanatic and a {@creature berserker} are heading towards the crater.|Pilgrims of the Falling Fire}"
+								],
+								[
+									"85-88",
+									"{@footnote {@b Hooded Lantern Patrol}|5 ({@dice 2d4}) {@creature scout||scouts} led by an {@creature urban ranger|DoDr} are on a recon mission. If the characters are in trouble they step in to help them, but then demand the characters turn over half of whatever plunder they’ve found in the ruins, citing their authority under the “law” of Westemär and that “scavenging” in the ruins is technically prohibited without the assent of the Lord Commander.|Hooded Lantern Patrol}"
+								],
+								[
+									"89-92",
+									"{@footnote {@b Queen’s Men Looters}|7 ({@dice 2d6}) {@creature bandit||bandits} led by a {@creature bandit captain} are hoping for easy pickings. The {@creature bandit||bandits} try to hide from the players until they appear wounded or in need of a rest, so canny characters might spot them before this happens.|Queen’s Men Looters}"
+								],
+								[
+									"93-94",
+									"{@footnote {@b Questing Knight}|A Silver Order {@creature knight} on a {@creature warhorse} with a retinue of 7 ({@dice 2d6}) {@creature guard||guards} are searching for lost relics and holy sites in the ruins.|Questing Knight}"
+								],
+								[
+									"95-96",
+									"{@footnote {@b Academy Surveyor}|An Amethyst Academy {@creature mage} and {@dice 1d4} {@creature hedge mage|DoDr} apprentices are conducting research in the ruins.|Academy Surveyor}"
+								],
+								[
+									"97-00",
+									"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
+								]
+							]
+						}
 					]
 				},
 				{
-					"type": "table",
-					"name": "Outer City Encounters",
-					"source": "DoDr",
-					"page": 71,
-					"caption": "Outer City Encounters",
-					"colLabels": [
-						"d100",
-						"Encounter"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"00-03",
-							"{@footnote {@b Run out of Town}|Characters get turned around badly, and arrive at the nearest edge of town.|Run out of Town}"
-						],
-						[
-							"04-07",
-							"{@footnote {@b Uninvited Guests}|The characters arrive at the nearest city gate.|Uninvited Guests}"
-						],
-						[
-							"08-11",
-							"{@footnote {@b Wrong Turn}|The characters find themselves back where they started an hour ago. I guess you took a wrong turn somewhere?|Wrong Turn}"
-						],
-						[
-							"12-15",
-							"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
-						],
-						[
-							"16-19",
-							"{@footnote {@b Menacing Manticore}|A {@creature manticore} circles overhead looking for an easy meal. If it spots the characters, it swoops in to attack the most vulnerable member. It flies off towards the inner city if reduced to less than half its hit points. {@creature manticore||Manticores} in the Inner City may hunt in packs of 5 ({@dice 2d4}).|Menacing Manticore}"
-						],
-						[
-							"20-13",
-							"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
-						],
-						[
-							"24-27",
-							"{@footnote {@b Phase Webs}|Strange webs cover this section of the ruins and fill nearby buildings - some even span the streets themselves. 2 ({@dice 1d4}) {@creature phase spider||phase spiders} resting in the dark corners come to investigate any disturbance of their webs. The webs are especially thick in regions of the Inner City, where there are 7 ({@dice 2d6}) spiders instead.|Phase Webs}"
-						],
-						[
-							"28-31",
-							"{@footnote {@b Watching Gargoyles}|2 ({@dice 1d4}) {@creature wall gargoyle|DoDr|wall gargoyles} roaming overhead swoop down to attack. If encountered in the Inner City, there are 7 ({@dice 2d6}) instead.|Watching Gargoyles}"
-						],
-						[
-							"32-35",
-							"{@footnote {@b Ratling Scavengers}|10 ({@dice 3d6}) {@creature ratling|DoDr|ratlings} hide down a nearby alley or passage awaiting unsuspecting prey.|Ratling Scavengers}"
-						],
-						[
-							"36-39",
-							"{@footnote {@b Garmyr Hunters}|10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} leading {@dice 1d4} {@creature worg||worgs} are stalking the streets for fresh meat. They are on keen lookout and watch for any signs of movement. Double the number encountered in the Inner City.|Garmyr Hunters}"
-						],
-						[
-							"40-43",
-							"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements. Add {@dice 1d4} additional {@creature haze wight|DoDr|haze wights} when encountered in the Inner City.|Hateful Dead}"
-						],
-						[
-							"44-47",
-							"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}.|Gibbering Flesh}"
-						],
-						[
-							"48-51",
-							"{@footnote {@b Ghost Lights}|2 ({@dice 1d4}) {@creature will-o'-wisp||will-o'-wisps} attempt to lure passing characters towards a mirage of treasure or {@item delerium|DoDr} in the Haze. In the inner city, there are {@dice 2d6} wisps instead.|Ghost Lights}"
-						],
-						[
-							"52-55",
-							"{@footnote {@b Haze Haunt}|A {@creature warp witch|DoDr} moans and wails in the nearby building, scornfully mourning its miserable existence as it tries to remember its past. Add an additional {@dice 1d4} {@creature warp witch|DoDr|warp witches} when encountered in the Inner City|Haze Haunt}"
-						],
-						[
-							"56-59",
-							"{@footnote {@b Angry Furniture}|2 ({@dice 1d4}) {@creature mimic||mimics} are disguised as perfectly normal pieces of furniture in a nearby house.|Angry Furniture}"
-						],
-						[
-							"60-63",
-							"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
-						],
-						[
-							"64-67",
-							"{@footnote {@b Shambling Husks}|7 ({@dice 2d6}) {@creature haze husk|DoDr|haze husks} stumble and shuffle around the streets. In this unsettling gait, they play out scenes of their former everyday lives.|Shambling Husks}"
-						],
-						[
-							"68-71",
-							"{@footnote {@b Old Alchemist’s Shop}|A decrepit alchemist’s shop that reeks of a chemical odor stands on a street corner. A pool of spilled chemicals has become an aggressive {@creature ochre jelly}. In the Inner City, 2 ({@dice 1d4}) {@creature black pudding||black puddings} are encountered instead.|Old Alchemist’s Shop}"
-						],
-						[
-							"72-75",
-							"{@footnote {@b Hooded Lantern Patrol}|5 ({@dice 2d4}) {@creature scout||scouts} led by an {@creature urban ranger|DoDr} are on a recon mission. If the characters are in trouble they step in to help them, but then demand the characters turn over half of whatever plunder they’ve found in the ruins, citing their authority under the “law” of Westemär and that “scavenging” in the ruins is technically prohibited without the assent of the Lord Commander.|Hooded Lantern Patrol}"
-						],
-						[
-							"76-79",
-							"{@footnote {@b Queen’s Men Looters}|7 ({@dice 2d6}) {@creature bandit||bandits} led by a {@creature bandit captain} are hoping for easy pickings. The {@creature bandit||bandits} try to hide from the players until they appear wounded or in need of a rest, so canny characters might spot them before this happens.|Queen’s Men Looters}"
-						],
-						[
-							"80-83",
-							"{@footnote {@b Questing Knight}|A Silver Order {@creature knight} on a {@creature warhorse} with a retinue of 7 ({@dice 2d6}) {@creature guard||guards} are searching for lost relics and holy sites in the ruins.|Questing Knight}"
-						],
-						[
-							"84-87",
-							"{@footnote {@b Academy Surveyor}|An Amethyst Academy {@creature mage} and {@dice 1d4} {@creature hedge mage|DoDr} apprentices are conducting research in the ruins.|Academy Surveyor}"
-						],
-						[
-							"88-91",
-							"{@footnote {@b Pilgrims of the Falling Fire}|A group of 10 ({@dice 3d6}) {@creature cultist||cultists} led by a cult fanatic and a {@creature berserker} are heading towards the crater.|Pilgrims of the Falling Fire}"
-						],
-						[
-							"92-95",
-							"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
-						],
-						[
-							"96-99",
-							"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
-						]
+					"type": "entries",
+					"name": "Common Locations",
+					"entries": [
+						"Use these descriptions to set the scene for a random encounter.",
+						{
+							"type": "table",
+							"source": "DoDr",
+							"page": 71,
+							"caption": "Common Locations",
+							"colLabels": [
+								"d10",
+								"Location"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Breakaway meteors demolished this area, leaving only broken cobblestones and toppled ruins riddled with small craters."
+								],
+								[
+									"2",
+									"A makeshift encampment. There’s a canvas tent, sleeping bags, and a few improvised barricades or defences. Embers still burn in the campfire."
+								],
+								[
+									"3",
+									"A deserted alleyway filled with trash, access point to the sewers."
+								],
+								[
+									"4",
+									"A devastated street filled with broken wagons, abandoned vendor’s stalls, and bones."
+								],
+								[
+									"5",
+									"An open plaza or park around a small monument, fountain, or well."
+								],
+								[
+									"6",
+									"A courtyard leading up to a civic building, shrine, chapel, or estate."
+								],
+								[
+									"7",
+									"A cluster of ramshackle taverns."
+								],
+								[
+									"8",
+									"Seedy tenement buildings and rundown shacks."
+								],
+								[
+									"9",
+									"Several workshops surrounded by warehouses."
+								],
+								[
+									"10",
+									"Rows of dilapidated and heavily damaged townhouses."
+								]
+							]
+						}
 					]
 				},
 				{
-					"type": "table",
-					"name": "Inner City Encounters",
-					"source": "DoDr",
-					"page": 71,
-					"caption": "Inner City Encounters",
-					"colLabels": [
-						"d100",
-						"Encounter"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"00-02",
-							"{@footnote {@b Horribly Lost!}| The characters are badly turned around and become hopelessly lost in the ruins. They no longer know where they are anymore or what direction they are facing. They wander the city streets indefinitely, checking for random encounters as normal each hour. They don’t regain their bearings unless the circumstances of a random encounter lead them to clues or friendly NPCs who can help them.|Horribly Lost!}"
-						],
-						[
-							"03-04",
-							"{@footnote {@b Executioner’s Summons}|The characters stumble into Slaughterstone Square.(see {@creature Executioner|DoDr})|Executioner’s Summons}"
-						],
-						[
-							"05-06",
-							"{@footnote {@b Going in circles.}| The characters lose their position and get lost. They no longer know where they are anymore or what direction they are facing. They must wander the city streets for the next {@dice 1d4} hours, after which they regain their original position. Check for random encounters as normal each hour. A random encounter could result in circumstances where the characters no longer become lost.|Going in circles}"
-						],
-						[
-							"07-08",
-							"{@footnote {@b Lord of the Feast!}| The {@creature Lord of the Feast|DoDr} leads a warpack of 10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} and 5 ({@dice 2d4}) {@creature hell hound||hell hounds}.|Lord of the Feast!}"
-						],
-						[
-							"09-10",
-							"{@footnote {@b Uninvited Guests}| The characters arrive at the nearest city gate.|Uninvited Guests}"
-						],
-						[
-							"11-12",
-							"{@footnote {@b Crimson Countess}| The {@creature Crimson Countess|DoDr} hunts above with a retinue of 5 ({@dice 2d4}) {@creature harpy||harpies}.|Crimson Countess}"
-						],
-						[
-							"13-14",
-							"{@footnote {@b Wandered into the Garden}| The characters arrive at the nearest edge of Queen’s Park Garden.|Wandered into the Garden}"
-						],
-						[
-							"15-16",
-							"{@footnote {@b Sewer Monster}|An {@creature otyugh} feasting on offal lurks near a sewer access point.|Sewer Monster}"
-						],
-						[
-							"17-19",
-							"{@footnote {@b Stalking Vermin}|14 ({@dice 4d6}) {@creature ratling|DoDr|ratlings} and 5 ({@dice 2d4}) {@creature ratling guttersnipe|DoDr|ratling guttersnipes} have set up an ambush. These {@creature ratling|DoDr|ratlings} use bait to lure prey towards a dead-end street or sewer passage where the guttersnipes lurk on high ground to snipe their quarry with ranged attacks.|Stalking Vermin}"
-						],
-						[
-							"20-22",
-							"{@footnote {@b Ralting Raiders}| A ratling {@creature warlock of the rat god|DoDr} leads a great horde of 21 ({@dice 6d6}) {@creature ratling|DoDr|ratlings}.|Ratling Raiders}"
-						],
-						[
-							"23-25",
-							"{@footnote {@b Hateful Dead}|A lone {@creature haze wight|DoDr} marches with 10 ({@dice 3d6}) {@creature haze husk|DoDr|haze husks}. It commands its minions to attack any living creature they find, and raises any nearby corpses as reinforcements. Add {@dice 1d4} additional {@creature haze wight|DoDr|haze wights} when encountered in the Inner City.|Hateful Dead}"
-						],
-						[
-							"26-29",
-							"{@footnote {@b Lost Ones}|10 ({@dice 3d6}) {@creature delerium dreg|DoDr|delerium dregs} wander the streets ahead. They sorrowfully mutter nonsensical gibberish, but wail and screech when they encounter humanoids. Add 2 ({@dice 1d4}) {@creature haze hulk|DoDr|haze hulks} when encountered in the Inner City|Lost Ones}"
-						],
-						[
-							"30-31",
-							"{@footnote {@b Troll Traveler}|A {@creature troll} is heading through the ruins to join the {@creature troll||trolls} at King’s Gate. He wears a large pack containing raw contaminated meat, a tankard of rancid ale, 11 ({@dice 2d10}) gold, and a few sets of tools and trinkets. If encountered near a bridge in the Inner City, there are 3 {@creature troll||trolls} instead.|Troll Traveler}"
-						],
-						[
-							"32-35",
-							"{@footnote {@b Phase Webs}|Strange webs cover this section of the ruins and fill nearby buildings - some even span the streets themselves. 2 ({@dice 1d4}) {@creature phase spider||phase spiders} resting in the dark corners come to investigate any disturbance of their webs. The webs are especially thick in regions of the Inner City, where there are 7 ({@dice 2d6}) spiders instead.|Phase Webs}"
-						],
-						[
-							"34-36",
-							"{@footnote {@b Gibbering Flesh}|The walls here are covered in thick fleshy growths, parts of the walls, streets, and rubble have grown eyes and mouths that break away and form 2 ({@dice 1d4}) {@creature gibbering mouther||gibbering mouthers}. In the Inner City, it has become a {@creature protean abomination|DoDr}.|Gibbering Flesh}"
-						],
-						[
-							"37-38",
-							"{@footnote {@b Old Alchemist’s Shop}|A decrepit alchemist’s shop that reeks of a chemical odor stands on a street corner. A pool of spilled chemicals has become an aggressive {@creature ochre jelly}. In the Inner City, 2 ({@dice 1d4}) {@creature black pudding||black puddings} are encountered instead.|Old Alchemist’s Shop}"
-						],
-						[
-							"39-40",
-							"{@footnote {@b Menacing Manticore}|A {@creature manticore} circles overhead looking for an easy meal. If it spots the characters, it swoops in to attack the most vulnerable member. It flies off towards the inner city if reduced to less than half its hit points. {@creature manticore||Manticores} in the Inner City may hunt in packs of 5 ({@dice 2d4}).|Menacing Manticore}"
-						],
-						[
-							"41-42",
-							"{@footnote {@b Shadows of Drakkenheim}|5 ({@dice 2d4}) {@creature shadow||shadows} slowly follow the characters. They try to remain hidden and follow the party until one of the player characters is more than ten feet away from the others, then the shadows strike in an attempt to overwhelm the straggler. An {@creature arcane wraith|DoDr} leads these {@creature shadow||shadows} when encountered in the Inner City.|Shadows of Drakkenheim}"
-						],
-						[
-							"43-44",
-							"{@footnote {@b Ghost Lights}|2 ({@dice 1d4}) {@creature will-o'-wisp||will-o'-wisps} attempt to lure passing characters towards a mirage of treasure or {@item delerium|DoDr} in the Haze. In the inner city, there are {@dice 2d6} wisps instead.|Ghost Lights}"
-						],
-						[
-							"45-46",
-							"{@footnote {@b Haze Haunt}|A {@creature warp witch|DoDr} moans and wails in the nearby building, scornfully mourning its miserable existence as it tries to remember its past. Add an additional {@dice 1d4} {@creature warp witch|DoDr|warp witches} when encountered in the Inner City|Haze Haunt}"
-						],
-						[
-							"47-49",
-							"{@footnote {@b Watching Gargoyles}|2 ({@dice 1d4}) {@creature wall gargoyle|DoDr|wall gargoyles} roaming overhead swoop down to attack. If encountered in the Inner City, there are 7 ({@dice 2d6}) instead.|Watching Gargoyles}"
-						],
-						[
-							"50-53",
-							"{@footnote {@b Garmyr Hunters}|10 ({@dice 3d6}) {@creature garmyr|DoDr|garmyrs} leading {@dice 1d4} {@creature worg||worgs} are stalking the streets for fresh meat. They are on keen lookout and watch for any signs of movement. Double the number encountered in the Inner City.|Garmyr Hunters}"
-						],
-						[
-							"54-56",
-							"{@footnote {@b Garmyr Ravagers}|7 ({@dice 2d6}) {@creature berserker||garmyr berserkers} with 2 ({@dice 1d4}) {@creature hell hound||hell hounds} are rampaging through the streets, howling loudly and starting fires.|Garmyr Ravagers}"
-						],
-						[
-							"57-58",
-							"{@footnote {@b Overgrown Ruin}|Strange alien plants and oddly-shaped vines creep up a crumbling ruin. A {@creature shambling mound} and 2 ({@dice 1d4}) {@creature hypnotic eldritch blossom|DoDr|hypnotic eldritch blossoms} grow in the tangled mass.|Overgrown Ruin}"
-						],
-						[
-							"59-61",
-							"{@footnote {@b Living Ruins}|Several inanimate parts of the ruins suddenly spring to life as 2 ({@dice 1d4}) {@filter delerium elementals|bestiary|search=contaminated elementals}. Choose whichever type is most appropriate for the area.|Living Ruins}"
-						],
-						[
-							"62-63",
-							"{@footnote {@b Chimera Nest}|A {@creature chimera} is nesting in a tall spire. Aggressive and territorial, it swoops down to rip apart any who wander around its turf.|Chimera Nest}"
-						],
-						[
-							"64-67",
-							"{@footnote {@b Harpy Flock}|A pack of 10 ({@dice 3d6}) {@creature harpy||harpies} flies overhead surveying the ground for anything worth hunting. They perch on rooftops and watch the streets below, trying to lure wandering characters up to the roofs to push them off to their deaths.|Harpy Flock}"
-						],
-						[
-							"68-69",
-							"{@footnote {@b Lurking Wraiths}|2 (1d4) {@creature arcane wraith|DoDr|arcane wraiths} flutter about seeking erratic magic, and fixate on whichever character is carrying the most {@item delerium|DoDr} or magic items.|Lurking Wraiths}"
-						],
-						[
-							"70-71",
-							"{@footnote {@b Fallen Heroes}|5 ({@dice 2d4}) {@creature haze wight|DoDr|haze wights} are all that remains of this former adventuring party. They believe any living humanoids they encounter are mutated monsters.|Fallen Heroes}"
-						],
-						[
-							"72-73",
-							"{@footnote {@b Gloaming Ray}|A {@creature cloaker} flies through the dark rooftops above looking for prey.|Gloaming Ray}"
-						],
-						[
-							"74-76",
-							"{@footnote {@b Deep ones}|10 ({@dice 3d6}) aquatic {@creature delerium dreg|DoDr|delerium dregs} and 1 {@creature chuul} occupy a sewer junction or are emerging from a sewer exit.|Deep ones}"
-						],
-						[
-							"77-80",
-							"{@footnote {@b Rival Adventurers}|Characters encounter a group of rival adventurers (see chapter 2).|Rival Adventurers}"
-						],
-						[
-							"81-83",
-							"{@footnote {@b Pilgrims of the Falling Fire}|A group of 10 ({@dice 3d6}) {@creature cultist||cultists} led by a cult fanatic and a {@creature berserker} are heading towards the crater.|Pilgrims of the Falling Fire}"
-						],
-						[
-							"84-87",
-							"{@footnote {@b Hooded Lantern Patrol}|5 ({@dice 2d4}) {@creature scout||scouts} led by an {@creature urban ranger|DoDr} are on a recon mission. If the characters are in trouble they step in to help them, but then demand the characters turn over half of whatever plunder they’ve found in the ruins, citing their authority under the “law” of Westemär and that “scavenging” in the ruins is technically prohibited without the assent of the Lord Commander.|Hooded Lantern Patrol}"
-						],
-						[
-							"88-91",
-							"{@footnote {@b Queen’s Men Looters}|7 ({@dice 2d6}) {@creature bandit||bandits} led by a {@creature bandit captain} are hoping for easy pickings. The {@creature bandit||bandits} try to hide from the players until they appear wounded or in need of a rest, so canny characters might spot them before this happens.|Queen’s Men Looters}"
-						],
-						[
-							"92-93",
-							"{@footnote {@b Questing Knight}|A Silver Order {@creature knight} on a {@creature warhorse} with a retinue of 7 ({@dice 2d6}) {@creature guard||guards} are searching for lost relics and holy sites in the ruins.|Questing Knight}"
-						],
-						[
-							"94-95",
-							"{@footnote {@b Academy Surveyor}|An Amethyst Academy {@creature mage} and {@dice 1d4} {@creature hedge mage|DoDr} apprentices are conducting research in the ruins.|Academy Surveyor}"
-						],
-						[
-							"96-99",
-							"{@footnote {@b Double Trouble}|Roll twice, ignoring this result on subsequent rolls. If two groups of monsters or NPCs are encountered, they’re fighting each other|Double Trouble}"
-						]
+					"type": "entries",
+					"name": "Warped Ruins",
+					"entries": [
+						"Many buildings in Drakkenheim are not exactly normal anymore. Use these and the {@table Arcane Anomalies|DoDr} to inject weirdness and horror as characters explore the city.",
+						{
+							"type": "table",
+							"source": "DoDr",
+							"page": 71,
+							"caption": "Warped Ruins",
+							"colLabels": [
+								"d10",
+								"Location"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Stonework and timbers have transformed into solid glass."
+								],
+								[
+									"2",
+									"Cloaked in eldritch fire, but it’s not burning down."
+								],
+								[
+									"3",
+									"Blown apart, but frozen in time at the middle of the explosion."
+								],
+								[
+									"4",
+									"Flesh, limbs, eyes, mouths, and faces are merged into the walls. They babble incoherently."
+								],
+								[
+									"5",
+									"The side facing the crater is melted like sticky wax."
+								],
+								[
+									"6",
+									"Disembodied screams and whispers resound from within."
+								],
+								[
+									"7",
+									"All colour within becomes black and white."
+								],
+								[
+									"8",
+									"An illusion of a childhood memory briefly appears in the front door, then vanishes."
+								],
+								[
+									"9",
+									"Looking at the building causes déjà vu."
+								],
+								[
+									"10",
+									"Scorch marks in the shape of human silhouettes are found on the walls and floors."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Finds",
+					"entries": [
+						"After a random encounter, roll {@dice 1d20} to see if the characters pick up any useful loot.",
+						{
+							"type": "table",
+							"source": "DoDr",
+							"page": 71,
+							"caption": "Lucky Finds",
+							"colLabels": [
+								"d20",
+								"Location"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1-8",
+									"Nothing but broken refuse and ruined scraps of weapons and armour."
+								],
+								[
+									"9",
+									"{@dice 1d4} sets of tools in an abandoned workshop."
+								],
+								[
+									"10",
+									"{@dice 5d6} gold pieces in a coin purse clutched by a severed hand."
+								],
+								[
+									"11",
+									"{@dice 1d6} {@item potion of healing||potions of healing} in a hidden cache."
+								],
+								[
+									"12",
+									"{@dice 1d4} uncommon {@item spell scroll||spell scrolls} tucked in a scroll case by a wizard’s corpse."
+								],
+								[
+									"13",
+									"{@dice 1d4} art objects worth 25 gp each are found in a modest townhouse."
+								],
+								[
+									"14",
+									"{@dice 2d6} {@item delerium|DoDr} chips haphazardly stored in a backpack."
+								],
+								[
+									"15",
+									"{@dice 2d6 x 10} gp in a lockbox in an old merchant’s tradehouse."
+								],
+								[
+									"16",
+									"1 {@item Keoghtom's Ointment||restorative ointment} upon an otherwise empty shelf."
+								],
+								[
+									"17",
+									"{@dice 1d4} {@item delerium|DoDr} fragments carefully placed in glass containers."
+								],
+								[
+									"18",
+									"{@dice 1d4} {@item Potion of Greater Healing||potions of greater healing} in a forsaken shrine."
+								],
+								[
+									"19",
+									"A crumbling estate has a piece of artwork worth 250 gp inside."
+								],
+								[
+									"20",
+									"1 rare {@item spell scroll} in a pile of books and loose pages fluttering down the street."
+								]
+							]
+						}
 					]
 				}
 			]
