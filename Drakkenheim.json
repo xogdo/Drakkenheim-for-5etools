@@ -5824,6 +5824,1853 @@
 				"contamination|DoDr",
 				"exhaustion"
 			]
+		},
+		{
+			"name": "Lord Commander Elias Drexel",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "DoDr",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item +3 breastplate}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 120",
+				"average": 255
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 18,
+			"int": 15,
+			"wis": 16,
+			"cha": 11,
+			"passive": 23,
+			"cr": "15",
+			"page": 214,
+			"shortName": "Elias Drexel",
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"str": "+9",
+				"dex": "+7",
+				"wis": "+8"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+13",
+				"stealth": "+12",
+				"survival": "+8"
+			},
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Survivor",
+					"entries": [
+						"At the start of each of his turns, Elias Drexel regains 10 hit points if he has no more than half of his hit points left. He does not gain this benefit if he has 0 hit points."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when Elias Drexel hits with it (included in the attack)."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Elias Drexel fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Elias Drexel wields a {@item +3 Longsword}, wears a {@item +3 breastplate} and the {@item Lord Commander’s Badge|DoDr}."
+					]
+				}
+			],
+			"traitTags": [
+				"Brute",
+				"Legendary Resistances"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Elias Drexel is a 20th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). He knows the following ranger spells:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell fog cloud}",
+								"{@spell hunter's mark}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell pass without trace}",
+								"{@spell protection from poison}",
+								"{@spell spike growth}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell conjure animals}",
+								"{@spell nondetection}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell freedom of movement}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell tree stride} (works on buildings instead of trees)"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CR"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Elias Drexel uses Leadership. He then makes four attacks with either his longsword or his longbow."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, Elias Drexel can utter a special command or warning whenever a nonhostile creature that he can see within 120 feet of him makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand Elias Drexel. A creature can benefit from only one Leadership die at a time. This effect ends if Elias Drexel is {@condition incapacitated}. "
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"S",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Elias Drexel adds 5 to his AC against one melee attack that would hit him. To do so, Elias Drexel must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Elias Drexel makes one weapon attack."
+					]
+				},
+				{
+					"name": "Command",
+					"entries": [
+						"Elias Drexel chooses one ally he can see. If that ally can see and hear him, that ally can make one weapon attack as a reaction and gains advantage on the attack roll. The attack deals an extra 10 ({@damage 3d6}) damage on a hit."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Elias Drexel is a man in his early fifties. He is stocky and imposing with a furrowed brow and a grim frown on his wide and angular face. His harsh features are framed with a thick moustache, side chops, and a mane of long braided brown hair. He is garbed in chainmail armour with heavy leather gloves and boots, worn under a fur-lined dark green cloak and iron pauldrons. He wears a pinned brooch - the {@item Lord Commander’s Badge|DoDr}, the symbol of his office. A quiver, a longbow, and two longswords are strung on his back.",
+					"Elias Drexel was appointed to the office of Lord Commander before the fall of Drakkenheim, and was outside the city leading training drills when the meteor fell. Afterwards, he took part in three military expeditions to reclaim Drakkenheim, and saw firsthand their horrors. He then went on to fight in the Westemär Civil War alongside Mannfred von Kessel. However, the idea that his soldiers died for nothing in Drakkenheim festered in his mind, and made him doubt Mannfred’s ability to be a good ruler. He secretly participated in a successful conspiracy to assassinate Mannfred von Kessel. Little did he know that shortly thereafter, tragedy would soon befall Cecilia von Kessel. He isn’t exactly proud of his choice to betray Mannfred, and that causes him considerable guilt, regret, and internal self-loathing. ",
+					{
+						"type": "entries",
+						"name": "Character Traits",
+						"entries": [
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									"{@b Personality Trait}. I am blunt and direct, and expect my soldiers to obey my commands and deliver results promptly. I find no humor in anything.",
+									"{@b Ideal}. Loyalty and trust are priceless. They must be carefully given, but staunchly held. There is nothing worse than betrayal and treason.",
+									"{@b Bond}. During the Civil War, I switched sides and killed several scions of House von Kessel who could have claimed the throne. I once believed it was for the right cause, but now I feel personally responsible for breaking the royal line. My mission in Drakkenheim is penance and redemption.",
+									"{@b Flaw}. I’m filled with rage and conflict because of my contradictory actions and beliefs, and I don’t take defeat, setbacks, or even missteps lightly. "
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Command Staff",
+						"entries": [
+							"The Lord Commander has several important aides who assist with the day-to-day operations of the Hooded Lantern’s forces:",
+							{
+								"type": "list",
+								"items": [
+									"The Warden - a {@creature knight} who oversees the defences and dungeons of the City Watch Barracks.",
+									"The Quartermaster - a {@creature spy} who attends to the supply cache.",
+									"The Apothecary - a human {@creature druid} who tends the wounded and manages their hospice.",
+									"The Master of the Forge - a dwarf {@creature priest}.",
+									"Paige - a {@creature commoner} and personal attendant to the Lord Commander."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Family",
+						"entries": [
+							"Elias Drexel is the adoptive father of both Petra Lang and Ansom Lang, both {@creature urban ranger|DoDr|urban rangers} and faction lieutenants for the Hooded Lanterns.",
+							"{@b Royal Bastards}. Ansom and Petra Lang were adopted by Elias Drexel during the Civil War. At your option, you may determine they are secretly the illegitimate offspring of King Ulrich von Kessel IV and an unknown mother. This fact was concealed to prevent a scandal, and even Elias Drexel doesn’t know it. A letter revealing this could be found in the Steward’s Archive in Castle Drakken."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Eldrick Runeweaver",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "DoDr",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item robe of the archmagi}",
+						"{@item staff of power}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 60",
+				"average": 150
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 10,
+			"con": 16,
+			"int": 22,
+			"wis": 19,
+			"cha": 15,
+			"passive": 26,
+			"cr": "15",
+			"page": 215,
+			"languages": [
+				"All"
+			],
+			"save": {
+				"wis": "+11",
+				"int": "+13",
+				"str": "+1",
+				"dex": "+2",
+				"con": "+10",
+				"cha": "+4"
+			},
+			"skill": {
+				"arcana": "+16",
+				"history": "+16",
+				"perception": "+16",
+				"persuasion": "+14"
+			},
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Eldrick Runeweaver fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Eldrick Runeweaver wears a {@item robe of the archmagi}, carries a {@item staff of power}, and wears a {@item ring of spell storing}. He carries {@dice 2d6} very rare spell scrolls and potions."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Eldrick Runeweaver has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Eldrick Runeweaver is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 15} to hit with spell attacks). He can cast {@spell shield} and {@spell invisibility} at will and has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell levitate}",
+								"{@spell shatter}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell dimension door}",
+								"{@spell ice storm}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell scrying}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell globe of invulnerability}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell forcecage}",
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell maze}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell prismatic wall}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"action": [
+				{
+					"name": "Staff of Power",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"Eldrick Runeweaver casts a cantrip."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Eldrick Runeweaver teleports 60 feet to an unoccupied space he can see"
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 3 actions)",
+					"entries": [
+						"Eldrick Runeweaver casts a spell using a spell slot."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Archwizard Eldrick Runeweaver heads up the Amethyst Academy operations in Drakkenheim and serves as the faction leader. The tiefling {@creature mage} River works alongside him as lieutenant. ",
+					"Eldrick Runeweaver serves as the acting Archmage of Drakkenheim within the Academy Directorate, but this is a provisional position. He will not be confirmed to a lifetime appointment until he successfully secures the Inscrutable Tower. He is accountable to the Academy Directorate, but only reveals his true position to close collaborators. Although he does not lead the Amethyst Academy as a whole, his death or defeat would cause the Directorate to seriously reevaluate their position in Drakkenheim.",
+					"One of the finest professors in the Amethyst Academy, Eldrick Runeweaver has personally instructed a generation of talented arcane spellcasters. He is the foremost living expert on abjuration magic, but is also highly regarded within the Academy as a dedicated administrator and calculating leader. If Eldrick Runeweaver successfully retakes the Inscrutable Tower, he will likely take up the vacant spot in the Academy Directorate and assume the mantle of Archmage of Drakkenheim. ",
+					"Eldrick Runeweaver is a towering and broad-shouldered man in his mid-sixties. His amber eyes glow softly behind his circular glasses, and he has a square-cut, greying black beard. He wears nine rings of silver, gold, and electrum: one on each finger except his left thumb. He wears flowing purple garb with golden embroidery, and carries an obsidian staff tipped with a {@item delerium|DoDr} crystal.",
+					{
+						"type": "entries",
+						"name": "Character Traits",
+						"entries": [
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									"{@b Personality Trait.} I carefully calculate my every action, and I speak using a few well-chosen words. I’m a teacher at heart, so I often phrase my responses in the form of a pointed question.",
+									"{@b Ideal.} I will seek out more information whenever I encounter an unknown situation or problem. Through reason and logic, the facts always bear out the truth of the matter.",
+									"{@b Bond.} I hold a position of responsibility and authority within the Amethyst Academy, and it is my duty to protect the Academy’s interests, carry out its agenda, and keep its many secrets.",
+									"{@b Flaw.} I care deeply for my students, but tend to overlook their faults and failures. I’ve had several wayward apprentices over the years, and I’ve often had to cover up their mistakes."
+								]
+							}
+						]
+					},
+					"Eldrick Runeweaver has a {@creature cat} familiar, and travels with an {@creature iron golem} bodyguard and a {@creature homunculus} servant. He most often communicates via {@spell sending}, {@spell Rary's telepathic bond}, and {@spell project image} spells, or by sending his {@spell simulacrum} instead. Eldrick always has a contingency spell in place, and has a {@spell clone} kept in a distant stronghold with extra equipment should the unthinkable occur. ",
+					"{@b Eldrick’s Simulacrum}. This special simulacrum uses the game statistics for an {@creature Archmage}. ",
+					"{@b Eldrick’s Spellbooks}. Eldrick keeps many spellbooks in secret places, which contain every spell on the Wizard spell list except wish (knowledge of this spell is restricted to the Academy Directorate)."
+				]
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"legendaryHeader": [
+				"Eldrick Runeweaver can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Eldrick Runeweaver regains spent legendary actions at the start of his turn."
+			]
+		},
+		{
+			"name": "Knight-Captain Theodore Marshal",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "DoDr",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 120",
+				"average": 255
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 18,
+			"int": 13,
+			"wis": 15,
+			"cha": 19,
+			"passive": 12,
+			"cr": "15",
+			"page": 215,
+			"languages": [
+				"Common",
+				"Celestial"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"save": {
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"animal handling": "+7",
+				"athletics": "+10",
+				"insight": "+7",
+				"persuasion": "+9"
+			},
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Divine Strikes",
+					"entries": [
+						"Theodore Marshal’s weapon attacks are magical. When he hits with any weapon, the weapon deals an extra {@damage 4d8} radiant damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Theodore Marshal fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Theodore Marshal wields a {@item holy avenger longsword}."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Theodore Marshal is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell aid}",
+								"{@spell branding smite}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell flame strike}",
+								"{@spell hallow}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Theodore Marshal makes two melee attacks."
+					]
+				},
+				{
+					"name": "Holy Avenger",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage, plus 18 ({@damage 4d8}) radiant damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S",
+				"R"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Theodore Marshal makes one weapon attack."
+					]
+				},
+				{
+					"name": "Holy Bolt (Costs 2 actions)",
+					"entries": [
+						"Theodore Marshal casts guiding bolt without expending a spell slot."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Knight-Captain Theodore Marshal is faction leader of the Silver Order in Drakkenheim. He keeps close counsel with High Flamekeeper Ophelia Reed, the faction lieutenant.",
+					"Theodore Marshal is a man in his prime. He is athletic and tall with boldly sculpted features, bronzed skin, and unkempt sandy brown hair. Unshaven stubble has grown into a beard over the criss-cross of scars on his face. A leather patch covers his right eye. He wears gleaming silver plate armour etched with golden trim, and carries a shimmering sword and a broad shield engraved with the symbol of the Sacred Flame.",
+					{
+						"type": "entries",
+						"name": "Character Traits",
+						"entries": [
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									"{@b Personality Trait.} I act with determined calm and respect. Little rouses my anger, instead I respond with disappointment when others incite my ire.",
+									"{@b Ideal.} I believe that good-hearted people can set aside their differences to work together.",
+									"{@b Bond.}  I am willing to lay down my life for a just and righteous cause.",
+									"{@b Flaw.}  I will never give up on my comrades. I do not trade lives"
+								]
+							}
+						]
+					}
+				]
+			},
+			"shortName": "Theodore Marshal",
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Lucretia Mathias",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "DoDr",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8",
+				"average": 90
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 10,
+			"con": 10,
+			"int": 19,
+			"wis": 24,
+			"cha": 19,
+			"passive": 27,
+			"cr": "15",
+			"page": 216,
+			"languages": [
+				"All"
+			],
+			"save": {
+				"wis": "+12",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+17",
+				"persuasion": "+14",
+				"insight": "+17",
+				"religion": "+14"
+			},
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Lucretia Mathias fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Prescient",
+					"entries": [
+						"Lucretia Mathias can’t be surprised while she is conscious."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While Lucretia Mathias is wearing no armour and wielding no shield, her AC includes her Wisdom modifier."
+					]
+				},
+				{
+					"name": "Undeniable Faith",
+					"entries": [
+						"Lucretia Mathias automatically succeeds on Constitution saving throws to maintain concentration on her spells. Any spell she casts is treated as if it were cast using a 9th level spell slot, regardless of the spell slot used to cast the spell."
+					]
+				},
+				{
+					"name": "Divine Grace",
+					"entries": [
+						"Any creature who targets Lucretia Mathias with an attack or a harmful spell must first make a {@dc 20} Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This effect doesn’t protect Lucretia Mathias from area effects, such as the explosion of a fireball. ",
+						"If Lucretia Mathias makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this effect ends until the start of her next turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Lucretia Mathias is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 20}, {@hit 12} to hit with spell attacks). She has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell aid}",
+								"{@spell hold person}",
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell sending}",
+								"{@spell speak with dead}",
+								"{@spell spirit guardians}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}",
+								"{@spell divination}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell commune}",
+								"{@spell flame strike}",
+								"{@spell greater restoration}",
+								"{@spell scrying}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}",
+								"{@spell word of recall}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}",
+								"{@spell resurrection}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell holy aura}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell gate}",
+								"{@spell sacrament of the falling fire|DoDr}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"action": [
+				{
+					"name": "Pacifying Touch",
+					"entries": [
+						"{@atk ms} {@hit 12} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) psychic damage. A creature reduced to 0 hit points by this damage is stable at 0 hit points. The target must succeed on a {@dc 20} Wisdom saving throw or be {@condition incapacitated} for 1 minute. This effect ends for an affected creature if it takes any damage."
+					]
+				},
+				{
+					"name": "Divine Intervention (1/ week)",
+					"entries": [
+						"Lucretia Mathias calls on the Sacred Flame for aid. The GM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate."
+					]
+				}
+			],
+			"damageTags": [
+				"Y"
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"Lucretia Mathias casts a cantrip."
+					]
+				},
+				{
+					"name": "Pacifying Touch (Costs 2 Actions)",
+					"entries": [
+						"Lucretia Mathias uses her Pacifying Touch."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 3 actions)",
+					"entries": [
+						"Lucretia Mathias casts a spell using a spell slot."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Lucretia Mathias is a willowy and wizened woman with piercing eyes and pursed lips. She is in her early nineties, and keeps her greying black hair in a coiled bun beneath a linen shawl. She wears simple grey robes, and clutches a heavy leather-bound tome. A glowing golden crystal dangles from a silver chain around her neck. Her garb lightly conceals the {@item delerium|DoDr} shard embedded in her heart.",
+					{
+						"type": "entries",
+						"name": "Character Traits",
+						"entries": [
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									"{@b Personality Trait.} I speak in proverbs and quote scripture when I speak, inspiring others to interpret my cryptic words and come to their own revelations.",
+									"{@b Ideal.} The brightest lights shine in the darkest of places. None are beyond redemption, and all may find their inner truth and purpose by following the Falling Fire.",
+									"{@b Bond.} I have foreseen the inevitable end of our world, but through our sacred self-sacrifice we shall set alight the Sacred Flame to bring enlightenment and salvation to the universe.",
+									"{@b Flaw.} I only reveal the greatest truths I have seen to those I am certain can grasp them fully, and will understand them as I do."
+								]
+							}
+						]
+					}
+				]
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"legendaryHeader": [
+				"Lucretia Mathias can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Lucretia Mathias regains spent legendary actions at the start of her turn."
+			]
+		},
+		{
+			"name": "Queen of Thieves",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "DoDr",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"canny defense",
+						"{@spell mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 20",
+				"average": 110
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 20,
+			"con": 13,
+			"int": 20,
+			"wis": 16,
+			"cha": 19,
+			"passive": 18,
+			"cr": "15",
+			"page": 217,
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Undercommon"
+			],
+			"save": {
+				"int": "+10",
+				"dex": "+10"
+			},
+			"skill": {
+				"arcana": "+10",
+				"perception": "+8",
+				"persuasion": "+9",
+				"acrobatics": "+10",
+				"deception": "+14",
+				"insight": "+8",
+				"sleight of hand": "+10",
+				"stealth": "+15"
+			},
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Eldrick Runeweaver fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"The Queen of Thieves wears an {@item amulet of proof against detection and location} and a {@item spymaster’s signet|DoDr}. She wields a +3 rapier. "
+					]
+				},
+				{
+					"name": "Canny Defense",
+					"entries": [
+						"While the Queen of Thieves is wearing light or no armour and wielding no shield, her AC includes her Intelligence modifier."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The Queen of Thieves deals an extra 18 ({@dice 5d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Queen of Thieves that isn't {@condition incapacitated} and the Queen of Thieves doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Sneak Attack"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Queen of Thieves is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell feather fall}",
+								"{@spell mage armor}",
+								"{@spell shield}",
+								"{@spell sleep}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell see invisibility}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell gaseous form}",
+								"{@spell hypnotic pattern}",
+								"{@spell major image}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell greater invisibility}",
+								"{@spell polymorph}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell dominate person}",
+								"{@spell scrying}",
+								"{@spell seeming}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell eyebite}",
+								"{@spell mass suggestion}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell forcecage}",
+								"{@spell project image}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell feeblemind}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell foresight}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Queen of Thieves’ innate spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material, somatic, or verbal components:"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell disguise self}",
+						"{@spell suggestion}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW",
+				"I"
+			],
+			"action": [
+				{
+					"name": "+3 Rapier",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 20/60 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Misdirection",
+					"entries": [
+						"When she would take damage, the Queen of Thieves becomes {@condition invisible} and teleports 60 feet to an unoccupied space she can see. At the same time, an illusory double of her appears where she was standing and lasts for 1 minute. The invisibility ends if the Queen of Thieves attacks or casts a spell, or after 1 minute."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The Queen of Thieves makes one melee or ranged attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The Queen of Thieves moves up to her speed without provoking opportunity attacks."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"“Who I am is not as important as what I am. I am quicker than thought, more silent than contemplation, more slippery than a fading memory, and more unshakable than a guilty conscience. I deal in secrets and mendacity as lesser thieves deal in coins and larceny. I can fulfil your wildest dreams, or I can be your worst nightmare.”",
+					"— The Queen of Thieves.",
+					"The Queen of Thieves is a scheming mastermind who controls the Drakkenheim underworld. She has transformed a hundred squabbling bands of brigands and outlaws into a burgeoning criminal empire. However, none know her true identity or origin, for she wears many faces. Though she is most infamously encountered as a lithe masked woman garbed in swashbuckling attire with a wide-brimmed hat and jewelled rapier, the Queen of Thieves adopts a variety of costumes, facial features, skin and hair colours, body shapes, ages, and genders depending on her mood and circumstances. As such, she typically confirms her identity by revealing some secret about whoever she is speaking with or demonstrating her uncanny ability to change appearance seemingly at-will.",
+					{
+						"type": "entries",
+						"name": "Character Traits",
+						"entries": [
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									"{@b Personality Trait.} I am never caught unprepared, and have contingencies for my contingencies. I speak with rakish confidence while casually exposing everything I know about others, and flaunt my ability to be anybody or anywhere.",
+									"{@b Ideal.} I indulge in playing mind games and manipulating people with the promise of profit. Instead of spilling blood, I spill secrets. My enemies are worthless as corpses. When I have to steal lives, I spend them dearly first.",
+									"{@b Bond.} Law is powerless in the chaos of the ruins. As long as anarchy reigns, so shall I.",
+									"{@b Flaw.} Anyone who trusts me is a terrible fool. Doublecrossing is my nature. I expect everyone to betray me, and I’ll relish the opportunity to defeat them when they try."
+								]
+							}
+						]
+					},
+					"Few amongst the Queen’s Men have met the Queen of Thieves in person, and even fewer have attended the Court of Thieves. Most only know if they get a note attached to a Queen of Diamonds playing card, you better do what it says."
+				]
+			},
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"U"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"legendaryHeader": [
+				"The Queen of Thieves can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The Queen of Thieves regains spent legendary actions at the start of her turn."
+			]
+		},
+		{
+			"name": "Cavalier",
+			"size": "M",
+			"type": "humanoid",
+			"source": "DoDr",
+			"page": 218,
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item splint armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 36",
+				"average": 90
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"passive": 14,
+			"cr": "5",
+			"languages": [
+				"Any two"
+			],
+			"save": {
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"animal handling": "+4",
+				"athletics": "+7",
+				"perception": "+4",
+				"persuasion": "+5"
+			},
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The cavalier has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Light's Fury",
+					"entries": [
+						"The cavalier deals an extra 9 ({@damage 2d8}) radiant damage when it hits with a weapon attack."
+					]
+				},
+				{
+					"name": "Skilled Rider",
+					"entries": [
+						"While mounted, the cavalier may force an attack targeted at their mount to target them instead."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"R"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The cavalier is an 8th-level spellcaster that uses Charisma as its spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks). They have the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell cure wounds}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell find steed}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cavalier makes two melee attacks."
+					]
+				},
+				{
+					"name": "Lance",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit (with disadvantage against a target within 5 ft.), reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) piercing damage, plus 9 ({@damage 2d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, plus 9 ({@damage 2d8}) radiant damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"fluff": {
+				"entries": [
+					"These righteous knights take to battle upon heavily armoured steeds or winged {@creature griffon||griffons}."
+				]
+			}
+		},
+		{
+			"name": "Chaplain",
+			"size": "M",
+			"type": "humanoid",
+			"source": "DoDr",
+			"page": 218,
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 18",
+				"average": 58
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 10,
+			"con": 14,
+			"int": 11,
+			"wis": 17,
+			"cha": 13,
+			"passive": 13,
+			"cr": "6",
+			"languages": [
+				"Any two"
+			],
+			"save": {
+				"wis": "+6",
+				"cha": "+4"
+			},
+			"skill": {
+				"insight": "+6",
+				"persuasion": "+4",
+				"religion": "+3"
+			},
+			"trait": [
+				{
+					"name": "Devotion",
+					"entries": [
+						"The chaplain has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The chaplain is a 9th-level spellcaster that uses Wisdom as its spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks). They have the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mending}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell prayer of healing}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell purge contamination|DoDr}",
+								"{@spell spirit guardians}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell divination}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell flame strike}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage or 5 ({@damage 1d8 + 1}) damage when used in two hands to make a melee attack."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"Ordained with prayer beads and holy symbols, a chaplain is a faithful warrior-priest who accompanies questing knights and military regiments on campaign. During moments of peace, some will prepare {@spell continual flame}, {@spell sending}, {@spell speak with dead}, {@spell remove curse}, {@spell greater restoration}, {@spell scrying}, and {@spell raise dead} as the need requires. Other chaplains are fiery zealots who can prepare {@spell faerie fire}, {@spell burning hands}, {@spell scorching ray}, {@spell flaming sphere}, {@spell fireball}, and {@spell wall of fire}."
+				]
+			}
+		},
+		{
+			"name": "Hedge Mage",
+			"size": "M",
+			"type": "humanoid",
+			"source": "DoDr",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "1d8 + 1",
+				"average": 5
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 15,
+			"wis": 11,
+			"cha": 11,
+			"passive": 10,
+			"cr": "1",
+			"page": 219,
+			"languages": [
+				"Any two"
+			],
+			"skill": {
+				"arcana": "+4"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The hedge mage is a 4th-level spellcaster that uses Intelligence as its spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The hedge mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell false life}",
+								"{@spell mage armor}",
+								"{@spell magic missile}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell Melf's acid arrow}",
+								"{@spell web}"
+							],
+							"slots": 0
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"“Not every graduate of the Amethyst Academy remains a part of the institution. A few depart to find their own way in life, quietly using their magical talents pursuing their own interests. So long as they keep the edicts and laws, they may practice magic undisturbed.”",
+					"— Eldrick Runeweaver"
+				]
+			}
+		},
+		{
+			"name": "Scoundrel",
+			"size": "M",
+			"type": "humanoid",
+			"source": "DoDr",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 12,
+			"int": 14,
+			"wis": 10,
+			"cha": 15,
+			"passive": 10,
+			"cr": "3",
+			"page": 219,
+			"languages": [
+				"Thieves cant plus any two languages"
+			],
+			"languageTags": [
+				"X"
+			],
+			"skill": {
+				"acrobatics": "+5",
+				"deception": "+6",
+				"sleight of hand": "+5",
+				"stealth": "+7"
+			},
+			"trait": [
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Once per turn, the scoundrel deals an extra 14 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the scoundrel that isn't {@condition incapacitated} and the scoundrel doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The scoundrel is a 3rd level spellcaster that uses Intelligence as its spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It knows the following spells from the wizard spell list:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand} (the hand is invisible)",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell disguise self}",
+								"{@spell sleep}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"The scoundrel takes the Dash, Disengage, or Hide action."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"“When you’ve been around the beat as long as me, you learn to pick up a trick or two. Take anything you can get, it might mean you win the next big score, or just live another day.”",
+					"— Blackjack Mel"
+				]
+			}
+		},
+		{
+			"name": "Urban Ranger",
+			"size": "M",
+			"type": "humanoid",
+			"source": "DoDr",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 12,
+			"dex": 17,
+			"con": 14,
+			"int": 11,
+			"wis": 15,
+			"cha": 11,
+			"passive": 16,
+			"cr": "3",
+			"page": 220,
+			"languages": [
+				"Any two"
+			],
+			"skill": {
+				"athletics": "+5",
+				"perception": "+6",
+				"stealth": "+7",
+				"survival": "+6"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The urban ranger is an 8th-level spellcaster that uses Wisdom as its spellcasting ability (spell save {@dc 12}; +4 to hit with spell attacks). It knows the following spells from the ranger spell list:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell fog cloud}",
+								"{@spell hunter's mark}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell pass without trace}",
+								"{@spell spike growth}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CR"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The urban ranger makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage"
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, ranged 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"fluff": {
+				"entries": [
+					"“We train day after day to survive the horrors of the city. More than just your own life is riding on you. A missed shot, a wrong turn, a split-second delay in noticing a lurking monster ahead could be the mistake that costs you everything in these dangerous ruins.”",
+					"— Petra Lang of the Hooded Lanterns",
+					"Grizzled and grim urban rangers stalk city streets and rooftops like their natural counterparts hunt forest paths and treetops, leaping between buildings and scaling walls with ease."
+				]
+			}
 		}
 	],
 	"legendaryGroup": [
