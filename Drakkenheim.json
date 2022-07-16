@@ -11,7 +11,6 @@
 				"convertedBy": [
 					"xogdo"
 				],
-				"version": "1.0.0",
 				"url": "https://ghostfiregaming.com/dungeons-of-drakkenheim/",
 				"color": "#B201FE"
 			}
@@ -975,6 +974,272 @@
 									"20",
 									"1 rare {@item spell scroll} in a pile of books and loose pages fluttering down the street."
 								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drakkenheim Haze",
+			"source": "DoDr",
+			"page": 65,
+			"type": "section",
+			"entries": [
+				"The Haze is magical radiation emitted by the vast concentration of {@item delerium|DoDr} in Drakkenheim. It permeates the ruins and extends about two miles outside the walls.",
+				{
+					"type": "entries",
+					"name": "Effect on Characters",
+					"entries": [
+						"Creatures do not gain any benefits from finishing a long rest within the Haze.",
+						"Creatures may remain in the Haze for up to twenty-four hours before they must finish a long rest to recuperate from exposure to its eldritch energies. For each additional hour spent within the Haze beyond twenty four hours, a creature must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition contamination|DoDr}.",
+						"Most monsters encountered in Drakkenheim possess the fully contaminated trait and ignore these effects."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Environmental Effects",
+					"entries": [
+						"At dawn, the Haze magically manifests mist throughout the ruins. Characters can see normally through the mist up to 150 feet. Vision beyond is lightly obscured, but vision past 300 feet is totally obscured. Any mists dispersed during the day reform ten minutes later",
+						"The mists dampen sunlight. Creatures with sunlight sensitivity or similar traits do not suffer these penalties during the day while within the Haze.",
+						"The mist disperses shortly after sunset, but the Haze appears as a shifting corona of octarine light shimmering over the city during the night. Floating motes and hazy particles hang over the city streets providing illumination akin to moonlight, and delerium crystals emit a bright glow to a range of five feet.",
+						"The corpses of beasts and humanoid creatures do not rot within the Haze. However, most unattended corpses left in the streets are devoured within a day by ravenous {@creature ratling|DoDr|ratlings}. Other food and drink spoils after {@dice 2d6} days within the Haze."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effects on Spells",
+					"entries": [
+						"The erratic magic of the Haze disrupts many spells cast within it. Any teleportation spell cast by a creature outside the Haze targeting a creature or location within the Haze automatically fails and the spell slot is wasted. Creatures inside the Haze may teleport normally within, but any attempt to leave the Haze via teleportation fails. Telepathic communications or effects such as the {@spell sending} spell transmitted from outside the Haze fail to contact a character within it, and vice-versa. Sensors created by divination spells can’t appear inside the Haze, and those created outside the Haze can’t enter it. Finally, other divination spells fail to reveal useful information about {@item delerium|DoDr}, the Haze, the origins of the meteor, or any events that occurred within the Haze.",
+						"When a character attempts any of the above using a spell or other effect, they must succeed on a {@dc 15} Intelligence saving throw. On a failure, they take {@damage 6d6} psychic damage and become incapacitated with madness until they finish a long rest. During this time they speak only in gibberish. A {@spell greater restoration} spell ends this effect.",
+						"The mist disperses shortly after sunset, but the Haze appears as a shifting corona of octarine light shimmering over the city during the night. Floating motes and hazy particles hang over the city streets providing illumination akin to moonlight, and {@item delerium|DoDr} crystals emit a bright glow to a range of five feet.",
+						"{@spell Rope trick}, {@spell Leomund's Tiny Hut} and similar spells or abilities do not provide shelter or protection from the Haze. However, characters may rest within a {@spell Mordenkainen's Magnificent Mansion} spell cast within the Haze."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deep Haze",
+					"entries": [
+						"Certain areas are so suffused by the Haze that mere exposure is extremely dangerous and potentially fatal. Known as the Deep Haze, these areas have the following additional traits:",
+						{
+							"type": "list",
+							"items": [
+								"Deep Haze is instantly recognized by a thick prismatic fog. Characters can see normally through this fog up to 60 feet. Vision beyond is lightly obscured, but vision past 120 feet is totally obscured. If dispersed during the day, the fog reforms one minute later.",
+								"Characters entering the Deep Haze must succeed on a {@dc 15} Constitution saving throw, and again for each full hour spent within. On a failed saving throw, they suffer 10 ({@damage 3d6}) necrotic damage and gain one level of {@condition contamination|DoDr}."
+							]
+						},
+						"The Haze map at the back of this book indicates which areas of the city are covered by the Deep Haze. Other locations suffused by the Deep Haze are noted in location descriptions. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Delerium Sludge",
+					"entries": [
+						"Gargantuan {@item delerium|DoDr} geodes perspire an opalescent sludge. Characters submerged in {@item delerium|DoDr} sludge make a {@dc 18} Constitution saving throw at the start of their turn. They take 42 ({@damage 12d6}) necrotic damage on a failed saving throw, and half as much on a successful one. In addition, characters who fail the saving throw gain one level of {@condition contamination|DoDr}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Navigating the Ruins",
+			"source": "DoDr",
+			"page": 66,
+			"type": "section",
+			"entries": [
+				"Drakkenheim behaves more like a dangerous wilderness than an urban location. Characters risk perilous random encounters with hostile monsters and mysterious magical phenomena as they traverse the ruins, but may also stumble upon {@item delerium|DoDr}, lost treasures, and faction agents.",
+				{
+					"type": "entries",
+					"name": "Getting to the City",
+					"entries": [
+						"Aside from Emberwood Village, all towns and villages within one week’s travel of Drakkenheim have been wholly abandoned. The nearest large cities are a three-week journey away.",
+						"Travel times from safe havens are indicated below. When travelling to the city, characters may arrive anywhere on the city outskirts.",
+						{
+							"type": "table",
+							"caption": "",
+							"colLabels": [
+								"Origin Point",
+								"Distance",
+								"Travel Time on Foot"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4 text-center",
+								"col-4 text-center"
+							],
+							"rows": [
+								[
+									"Eckerman Mill",
+									"1 mile",
+									"20 minutes"
+								],
+								[
+									"Camp Dawn",
+									"2 miles",
+									"1 hour"
+								],
+								[
+									"Emberwood Village",
+									"5 miles",
+									"2 hours"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Urban Exploration",
+					"entries": [
+						"As the player characters traverse the ruined city, you can handle urban exploration in an abstract manner as follows:",
+						"Travel times from safe havens are indicated below. When travelling to the city, characters may arrive anywhere on the city outskirts.",
+						{
+							"type": "list",
+							"items": [
+								"Using the city map, identify approximately where the characters are currently located.",
+								"Let the players determine what direction they want to go and choose their travel pace (see “Moving Through the Streets” below). ",
+								"Check for {@variantrule Encounters in Drakkenheim|DoDr|random encounters} each hour."
+							]
+						},
+						"It’s not necessary to precisely track which streets the characters take; a rough route is sufficient. Correspondingly, navigation checks are not required. Characters can locate key adventure sites without much difficulty, as long as they have approximate directions and a general description of their destination. Instead, the {@variantrule Encounters in Drakkenheim|DoDr|random encounters} tables include several situations in which the characters might make a wrong turn or become lost.",
+						{
+							"type": "entries",
+							"name": "Moving through the Streets",
+							"entries": [
+								"Ruined buildings and maze-like streets are exceptionally difficult terrain. How fast characters can move on foot depends on their priority:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Fast.} At this pace, characters advance one mile per hour. They take the most direct route to their destination and move openly on major streets. Characters cannot use stealth, and make Perception checks with disadvantage. When checking for {@variantrule Encounters in Drakkenheim|DoDr|random encounters}, each character rolls twice and takes the lower result",
+										"{@b Normal.} At this pace, characters advance one-half mile per hour. They proceed carefully through the ruins staying vigilant for threats and landmarks. Characters cannot use stealth, but may make Investigation and Perception checks with advantage.",
+										"{@b Slow.} At this pace, characters advance one-quarter mile per hour to evade hostile threats. They sneak down back alleys and avoid major streets. Characters may use stealth, and make Perception checks normally."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Searching the Ruins",
+							"entries": [
+								"Use these guidelines whenever the characters deliberately search for something in the ruins, such as scavenged supplies, lost treasures, unknown locations, a hidden foe, or a safe place to rest. Conducting a good search takes at least one hour; during which the characters may survey an area with up to a ¼ mile diameter. After one hour of searching, each character makes an {@skill Investigation} or Wisdom ({@skill Survival}) check (DC 10 for the Outer City, DC 15 for the Inner City). Exceeding the DC by 5 or more grants an additional success. Whether or not the characters find anything is determined by the total number of successes:",
+								{
+									"type": "list",
+									"items": [
+										"{@b 3 or more successes.} The party finds what they are looking for if it can be found within the search area, otherwise, they conclusively rule out any possibility that what they were seeking was in the area of their search.",
+										"{@b 2 or more failed checks.} The characters stumble into a {@variantrule Encounters in Drakkenheim|DoDr|random encounters}, but if they still had enough successes, they also find whatever they sought."
+									]
+								},
+								"If your party is larger or smaller than four characters, increase or decrease the number of required successes proportionately. Alternatively, characters might use special skills when searching for something specific:",
+								{
+									"type": "list",
+									"items": [
+										"{@skill Arcana}. {@item Delerium|DoDr} deposits or magical phenomena",
+										"{@item Cartographer's Tools|phb}. Searching an area the characters have visited at least once before themselves, or for which they have a map.",
+										"{@skill History}. Specific and notable monuments, buildings, or residences.",
+										"{@skill Nature}. Exploring natural environments such as Queen’s Park",
+										"{@skill Survival}. Tracking monsters or people",
+										"{@skill Stealth} and {@skill Perception} checks do not contribute to successes, but may be used to evade or detect hostile threats while the characters search the ruins."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Finding Delerium Deposits",
+							"entries": [
+								"When characters seek out {@item delerium|DoDr} by Searching the Ruins (described above), success requires a DC 18 Intelligence (Arcana or Investigation) or Wisdom (Survival) check, with any result of 23 or higher granting an additional success. What the characters find is based on their number of successes:",
+								{
+									"type": "table",
+									"caption": "Outer City Delerium Deposits (DC 15)",
+									"colStyles": [
+										"col-4",
+										"col-8"
+									],
+									"rows": [
+										[
+											"2 success or fewer",
+											"Nothing"
+										],
+										[
+											"3 successes",
+											"10 ({@dice 3d6}) {@item delerium|DoDr} chips worth 10 gp each"
+										],
+										[
+											"4 successes",
+											"3 ({@dice 1d6}) {@item delerium|DoDr} fragments worth 100 gold each"
+										],
+										[
+											"5 or more successes",
+											"1 {@item delerium|DoDr} shard worth 500 gp"
+										]
+									]
+								},
+								"",
+								{
+									"type": "table",
+									"caption": "Inner City Delerium Deposits (DC 20)",
+									"colStyles": [
+										"col-4",
+										"col-8"
+									],
+									"rows": [
+										[
+											"1 success or fewer",
+											"Nothing"
+										],
+										[
+											"2 successes",
+											"10 ({@dice 3d6}) {@item delerium|DoDr} chips worth 10 gp each"
+										],
+										[
+											"3 successes",
+											"7 ({@dice 2d6}) {@item delerium|DoDr} fragments worth 100 gp each"
+										],
+										[
+											"4 successes",
+											"3 ({@dice 1d6}) {@item delerium|DoDr} shards worth 500 gold each"
+										],
+										[
+											"5 or more successes",
+											"1 {@item delerium|DoDr} crystal worth 1000 gp"
+										]
+									]
+								},
+								"Results are cumulative, so a group that makes four successes finds {@dice 3d6} {@item delerium|DoDr} chips and {@dice 1d6} fragments. As normal, generate a {@variantrule Encounters in Drakkenheim|DoDr|random encounters} if characters have two or more failed check results while searching for delerium",
+								"Characters searching within a quarter mile of the Crater’s Edge receive one automatic additional success due to the rich quantities of {@item delerium|DoDr} found in this exceptionally dangerous region."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Drakkenheim Sewers",
+							"entries": [
+								"The Drakkenheim sewers were a sophisticated engineering marvel. The system combined underground gravity-based aqueducts and drainage canals with carefully placed locks and floodgates to deliver clean and fresh water to the city population and draw away the massive quantities of sewage and wastewater. Major canals run under the city streets, and can be accessed from the surface by numerous maintenance hatches.",
+								"After over a decade of disuse, most tunnels are flooded with contaminated water and many other passages have collapsed. Other sections are now monster lairs. As a result, travelling in the sewers is extraordinarily hazardous and ill-advised. However, characters might consider taking the sewers to locate a route under the city walls, or to gain access to hidden underground dungeons such as the cistern or the Court of Thieves.",
+								"{@b Sewer Navigation.} Handle sewer navigation abstractly using the same mechanics for navigating the streets above, except characters move at half their normal pace through the twisting tunnels. Sewer passages and access points could be almost anywhere in the city, so use the surface map as an approximate guide to track the character’s progress. In addition, after each hour spent in the sewers characters must succeed on a DC 10 Constitution saving throw or gain one level of {@condition contamination|DoDr} from contact with sewer water.",
+								"{@b Searching the Sewers.} Just as characters may search the streets, they might search the sewers for hidden entrances to some adventure sites. Other secret locations may be found in this manner. A DC 20 check result is needed for success when searching the sewer passages."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Exploration Activities",
+							"entries": [
+								"{@b Taking a Rest.} Before taking a short rest in the ruins, characters may spend one hour locating a safe spot or hiding their campsite. If they do, don’t check for {@variantrule Encounters in Drakkenheim|DoDr|random encounters} during their rest. Note that the Haze (described above) prevents characters from benefiting from a long rest in the city. Characters who attempt to do so anyways check for {@variantrule Encounters in Drakkenheim|DoDr|random encounters} each hour.",
+								"{@b Flying.} . Flying characters may soar across the city rapidly. At your discretion, they may risk hostile attention from the gargoyles defending the walls or the harpies inhabiting the Inner City.",
+								"{@b Vehicules.} . Land vehicles are largely impractical in the ruins, although characters could use a boat to travel via the river normally (though at your discretion characters may risk attack from aquatic or sewer-dwelling monsters!) Characters moving with a land vehicle or portaging a water vehicle travel ¼ mile per hour. Land and water vehicles can’t be hidden without magic, but individual characters might be able to use stealth.",
+								"{@b Finding Sustenance.} Finding suitable sustenance within Drakkenheim is difficult since most food and water within the city is either spoiled or contaminated. Instead, characters should bring their own supply of food and water from outside the city. Nevertheless, a character who eats or drinks anything found in Drakkenheim that has not been magically purified makes a DC 15 Constitution saving throw. On a failed save, they gain one level of {@condition contamination|DoDr}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Combined Approach",
+							"entries": [
+								"Drakkenheim is dangerous and unpredictable. There is no such thing as a foolproof plan for safely exploring the ruins. Nevertheless, characters using special resources, spells, magic items, or with a very inventive plan might greatly improve their navigation. For example, characters could use spells such as {@spell invisibility} and {@spell pass without trace} together to travel quickly while remaining unseen, or perhaps {@spell water walk} helps characters move over the river. If they aren’t expending resources, you should call for a few difficult skill checks. On a failure, they stumble into a difficult {@variantrule Encounters in Drakkenheim|DoDr|random encounters} with extra complications."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Escaping the Ruins",
+							"entries": [
+								"Characters must use their resources carefully while exploring Drakkenheim, as there is always a chance they’ll face a {@variantrule Encounters in Drakkenheim|DoDr|random encounters} or two when leaving the ruins as well. At some point during their adventures, characters might be heavily wounded and out of resources deep in the city ruins. As they stagger back to Emberwood Village, they roll up a difficult {@variantrule Encounters in Drakkenheim|DoDr|random encounters}. This could be the one that ends it for them! Be lenient the first time this happens, but merciless the second."
 							]
 						}
 					]
@@ -3290,7 +3555,8 @@
 			"size": "S",
 			"type": "monstrosity",
 			"alignment": [
-				"A"
+				"C",
+				"E"
 			],
 			"ac": [
 				12
@@ -5662,7 +5928,8 @@
 			"size": "S",
 			"type": "monstrosity",
 			"alignment": [
-				"A"
+				"C",
+				"E"
 			],
 			"ac": [
 				{
@@ -10059,7 +10326,7 @@
 					"spellcasting": true
 				}
 			],
-			"weight": 4,
+			"weight": 2,
 			"weaponCategory": "simple",
 			"property": [
 				"V"
