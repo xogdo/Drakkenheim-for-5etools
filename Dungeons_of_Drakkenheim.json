@@ -7118,13 +7118,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Eldrick Runeweaver fails a saving throw, he can choose to succeed instead."
+						"If The Queen of Thieves fails a saving throw, she can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"The Queen of Thieves wears an {@item amulet of proof against detection and location} and a {@item spymaster’s signet|DoDr}. She wields a +3 rapier. "
+						"The Queen of Thieves wears an {@item amulet of proof against detection and location} and a {@item spymaster’s signet|DoDr}. She wields a {@item +3 rapier}. "
 					]
 				},
 				{
